@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GANANameOfOtherSubclass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
