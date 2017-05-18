@@ -1,6 +1,9 @@
 as yet unclassified
 buildCommitTree: builder
+
 	^ builder pluggableTreeSpec new
 		model: self;
 		roots: #commitList;
-		frame: (0.1@0.1 extent: 0.8@0.8).
+		nodeClass: GanaSquitVersionWrapper;
+		columns: { 100 .100. 100 . nil};
+		frame: (0@0.1 extent: 1@0.8).

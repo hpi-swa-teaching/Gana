@@ -1,5 +1,5 @@
 as yet unclassified
-historiansOfFirstRepo
+allHeadsOfHistoriansOfFirstRepo
 
 	| squitRepo workingCopy allHistorians |
 	self flag: #refactor.
