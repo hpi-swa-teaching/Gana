@@ -1,7 +1,7 @@
 as yet unclassified
-printBranches: gitCommits
+printHistorians: squitVersions
 	| historyWalker sortedRevisions |
-	historyWalker := GitHistoryWalker new.
+	historyWalker := SquotHistoryWalker new.
 	sortedRevisions := Heap sortBlock: [:a :b | (a metadata at: #timestamp) > (b metadata at: #timestamp)].
-	(historyWalker startingFromAll: gitCommits) do: [ :revision | sortedRevisions add: revision].
+	historyWalker startingFromAll: squitVersions do: [ :revision | sortedRevisions add: revision].
 	sortedRevisions do: [ :commit | self printVersion: commit ].

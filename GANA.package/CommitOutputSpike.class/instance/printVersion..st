@@ -1,10 +1,11 @@
 as yet unclassified
 printVersion: aSquitVersion
-	Transcript show: (aSquitVersion message).
-	Transcript show: '	'.
-	Transcript show: (aSquitVersion hexHash).
-	Transcript show: '	'.
-	Transcript show: (aSquitVersion metadata at: #author).
-	Transcript show: '	'.	
-	Transcript show: (aSquitVersion metadata at: #timestamp).
+	| displayedHashLength toPrint |
+	
+	displayedHashLength := 6.
+	toPrint := {aSquitVersion message.
+				aSquitVersion hexHash copyFrom: 1 to: displayedHashLength.
+				aSquitVersion metadata at: #author.
+				aSquitVersion metadata at: #timestamp}.
+	toPrint do: [ :s |	Transcript show: s; tab].
 	Transcript cr.
