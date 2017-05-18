@@ -1,0 +1,3 @@
+*GANA-extensions
+squitRepository
+	^ squitRepository.
