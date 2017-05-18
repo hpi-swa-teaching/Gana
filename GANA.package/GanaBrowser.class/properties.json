@@ -1,5 +1,5 @@
 {
-	"category" : "GANA-Tests",
+	"category" : "GANA-UI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GANANameOfOtherSubclass",
+	"name" : "GanaBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }
