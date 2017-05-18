@@ -3,4 +3,4 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec package: 'Squot' with: [spec repository: 'github.com://hpi-swa/squot:master/repository'].]
+		spec package: 'Squot' with: [spec repository: 'github://hpi-swa/squot:master/repository'].]
