@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testAlwaysTrue
 	self assert: true true
