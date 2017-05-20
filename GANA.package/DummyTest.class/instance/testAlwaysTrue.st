@@ -1,3 +1,3 @@
 tests
 testAlwaysTrue
-	self assert: true true
+	self assert: true
