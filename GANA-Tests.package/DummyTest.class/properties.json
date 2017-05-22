@@ -1,14 +1,14 @@
 {
-	"category" : "GANA-UI",
+	"category" : "GANA-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"test" ],
-	"name" : "GANANameOfSubclass",
+		 ],
+	"name" : "DummyTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
