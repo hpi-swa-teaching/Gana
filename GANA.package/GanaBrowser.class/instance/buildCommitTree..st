@@ -5,5 +5,5 @@ buildCommitTree: builder
 		model: self;
 		roots: #commitList;
 		nodeClass: GanaSquitVersionWrapper;
-		columns: { 100 .100. 100 . nil};
+		columns: { 250 .100. 100 . 100. nil};
 		frame: (0@0.1 extent: 1@0.8).

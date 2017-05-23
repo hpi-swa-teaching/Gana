@@ -1,4 +1,4 @@
 as yet unclassified
 asString
 
-	^ self item shortId, String tab, super asString
+	^ '[' , self historianNames  ,'] ' , String tab,  self item shortId, String tab, super asString
