@@ -10,5 +10,5 @@
 	"name" : "BaselineOfGANA",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
