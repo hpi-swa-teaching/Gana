@@ -5,7 +5,9 @@ baseline: spec
 	spec for: #common do: [
 		"spec package: 'Squot' with: [spec repository: 'github://hpi-swa/squot:master/src']."
 		spec
-			package: 'GANA' "with: [spec requires: #('Squot')]";
+			package: 'GANA-Core' "with: [spec requires: #('Squot')]";
+			package: 'GANA-Tests'
+			package: 'GANA-UI'
 			
-			group: 'default' with: #('GANA');
-			group: 'tests' with: #('GANA')]
+			group: 'default' with: #('GANA-Core' 'GANA-Tests' 'GANA-UI' );
+			group: 'tests' with: #('GANA-Core' 'GANA-Tests' 'GANA-UI' )]
