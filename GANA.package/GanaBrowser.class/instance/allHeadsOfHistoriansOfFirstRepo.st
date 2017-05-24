@@ -11,7 +11,6 @@ allHeadsOfHistoriansOfFirstRepo
 	allHistorians do: [:historian | | v h |
 		v := historian version.
 		h := (HistorianAwareSquitVersion new) squitVersion: v; yourself.
-		allVersions like: h ifAbsent: [allVersions add: h ].
 		allVersions add: h.
 		"instert historian to historian version"
 		(allVersions like: h) addHistorian: historian name.
