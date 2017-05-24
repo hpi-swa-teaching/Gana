@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"historiansNames" ],
+	"name" : "GanaSquitVersionWrapper",
+	"pools" : [
+		 ],
+	"super" : "SquitVersionWrapper",
+	"type" : "normal" }

@@ -1,3 +1,5 @@
 OrderedDictionary {
+	'GANA-Core.package' : #SquotCypressCodeSerializer,
+	'GANA-UI.package' : #SquotCypressCodeSerializer,
 	'GANA.package' : #SquotCypressCodeSerializer
 }
