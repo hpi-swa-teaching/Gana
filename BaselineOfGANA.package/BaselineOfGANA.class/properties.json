@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGANA",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGANA",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
