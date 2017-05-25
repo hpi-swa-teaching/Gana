@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"historiansNames" ],
+		"historiansNames",
+		"historians",
+		"historianHead" ],
 	"name" : "GanaSquitVersionWrapper",
 	"pools" : [
 		 ],
