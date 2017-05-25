@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"=" : "LH 5/25/2017 10:08",
-		"addAllHistorians:" : "LH 5/25/2017 10:08",
-		"addHistorian:" : "LH 5/25/2017 10:08",
+		"=" : "FB 5/25/2017 17:23",
+		"addAllHistorians:" : "FB 5/25/2017 17:24",
+		"addHistorian:" : "FB 5/25/2017 17:25",
 		"asString" : "LH 5/25/2017 10:08",
 		"hash" : "LH 5/25/2017 10:08",
 		"historians" : "LH 5/25/2017 10:08",
-		"historians:" : "LH 5/25/2017 10:09",
-		"initialize" : "LH 5/25/2017 10:09",
+		"historians:" : "FB 5/25/2017 17:24",
+		"initialize" : "FB 5/25/2017 17:24",
 		"isStartOfHistorian" : "LH 5/25/2017 10:09",
-		"isStartOfHistorian:" : "LH 5/25/2017 10:09",
-		"summary" : "LH 5/25/2017 10:09" } }
+		"isStartOfHistorian:" : "FB 5/25/2017 17:24",
+		"summary" : "FB 5/25/2017 17:31" } }

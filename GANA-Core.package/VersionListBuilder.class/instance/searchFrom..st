@@ -1,9 +1,8 @@
 as yet unclassified
 searchFrom: aSquitRepository
 	
-	| allHistorians allVersions |
+	| allHistorians |
 	allHistorians := aSquitRepository historians, aSquitRepository remoteHistorians.
-	allVersions := self searchFrontierFrom: allHistorians.
-	searchFrontier addAll: allVersions.
+	self initializeSearchFrontierFrom: allHistorians.
 	self performSearch.
 	^ versionList 

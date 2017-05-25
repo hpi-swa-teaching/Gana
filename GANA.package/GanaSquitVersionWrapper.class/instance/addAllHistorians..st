@@ -1,4 +1,4 @@
 as yet unclassified
-addAllHistorians: t1 
+addAllHistorians: historians 
 
-	self historians addAllLast: t1
+	self historians addAllLast: historians.

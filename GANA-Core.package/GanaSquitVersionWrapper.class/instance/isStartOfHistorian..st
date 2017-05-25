@@ -1,4 +1,4 @@
 as yet unclassified
-isStartOfHistorian: t1 
+isStartOfHistorian: aBoolean 
 
-	historianHead := t1.
+	historianHead := aBoolean.

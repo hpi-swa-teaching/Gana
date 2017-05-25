@@ -1,4 +1,4 @@
 as yet unclassified
-= t1 
+= aGanaSquitVersionWrapper  
 
-	^ version hash = t1 version hash
+	^ self hash = aGanaSquitVersionWrapper hash

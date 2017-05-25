@@ -1,5 +1,5 @@
 as yet unclassified
-searchFrontierFrom: historians 
+initializeSearchFrontierFrom: historians 
 	
 	| versions |
 	self flag: #refactor. "Is there a collection protocol for this?"
@@ -9,4 +9,4 @@ searchFrontierFrom: historians
 		h := (GanaSquitVersionWrapper on: v) isStartOfHistorian: true.
 		versions add: h.
 		(versions like: h) addHistorian: historian].
-	^ versions
+	searchFrontier addAll: versions.
