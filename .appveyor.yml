@@ -8,7 +8,7 @@ environment:
   matrix:
     - SMALLTALK: Squeak-trunk
     - SMALLTALK: Squeak-5.1
-    - SMALLTALK: Squeak-5.0
+    #- SMALLTALK: Squeak-5.0
 
 platform:
   - x86
