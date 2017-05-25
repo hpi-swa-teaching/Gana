@@ -1,5 +1,6 @@
 as yet unclassified
 summary
+
 	| t1 t2 t3 t4 t5 t6 |
 	t1 := self version message.
 	t2 := self version shortId.
