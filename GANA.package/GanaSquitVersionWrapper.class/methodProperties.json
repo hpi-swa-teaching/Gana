@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asString" : "FB 5/23/2017 11:24",
-		"defaultHistorian" : "FB 5/23/2017 11:45",
-		"highlightColor" : "FB 5/23/2017 11:46",
-		"historianNames" : "FB 5/23/2017 11:44",
-		"preferredColor" : "FB 5/23/2017 11:48" } }
+		"=" : "FB 5/25/2017 08:54",
+		"addAllHistorians:" : "FB 5/25/2017 08:54",
+		"addHistorian:" : "FB 5/25/2017 08:54",
+		"asString" : "FB 5/25/2017 08:54",
+		"hash" : "FB 5/25/2017 08:54",
+		"historians" : "FB 5/25/2017 09:09",
+		"historians:" : "FB 5/25/2017 08:55",
+		"initialize" : "FB 5/25/2017 08:55",
+		"isStartOfHistorian" : "FB 5/25/2017 08:55",
+		"isStartOfHistorian:" : "FB 5/25/2017 08:55",
+		"summary" : "FB 5/25/2017 08:55" } }
