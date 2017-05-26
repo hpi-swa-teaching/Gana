@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"historians" ],
+	"name" : "MockSquitRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

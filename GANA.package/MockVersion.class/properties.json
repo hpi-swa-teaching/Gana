@@ -1,0 +1,17 @@
+{
+	"category" : "GANA-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"message",
+		"hexHash",
+		"metadata",
+		"parents" ],
+	"name" : "MockVersion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
