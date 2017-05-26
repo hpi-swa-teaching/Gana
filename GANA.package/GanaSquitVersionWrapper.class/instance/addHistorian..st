@@ -1,4 +1,4 @@
 as yet unclassified
-addHistorian: t1 
+addHistorian: squitHistorians
 
-	self historians add: t1
+	self historians add: squitHistorians.
