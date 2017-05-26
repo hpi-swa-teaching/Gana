@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"generatorFor:" : "FB 5/26/2017 14:12",
+		"generatorFor:" : "FB 5/26/2017 14:16",
 		"setUp" : "FB 5/26/2017 12:08",
 		"testSimple" : "FB 5/26/2017 12:12",
 		"testTwoBranches" : "FB 5/26/2017 13:58" } }
