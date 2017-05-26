@@ -6,4 +6,4 @@ generatorFor: numberOfVersions
 				1 to: numberOfVersions do: 
 				[:id | 
 				g yield: (MockVersion newWith: id asString From: #() 
-								at: (time plusDays: id) id: id asString)]].
+								at: (time plusDays: id) id: id asString)]]
