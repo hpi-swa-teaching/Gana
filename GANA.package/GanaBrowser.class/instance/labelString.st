@@ -1,4 +1,4 @@
 as yet unclassified
 labelString
 
-	^ 'GanaBrowser' 
+	^ 'GanaBrowser -- Repository[' , workingCopy name , ']' 
