@@ -5,4 +5,5 @@ buildWith: builder
 		model: self;
 		label: #labelString;
 		children: {self buildCommitTree: builder . 
+					self buildSearchBar: builder .
 					self buildRepositorySelectionButton: builder})
