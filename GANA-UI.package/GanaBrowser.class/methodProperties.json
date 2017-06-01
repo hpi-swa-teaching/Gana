@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"open" : "JK 5/18/2017 13:55" },
+		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
-		"buildCommitTree:" : "FB 5/25/2017 09:07",
-		"buildWith:" : "LH 5/25/2017 10:07",
+		"buildCommitTree:" : "JK 5/25/2017 10:37",
+		"buildSearchBar:" : "JK 5/25/2017 10:39",
+		"buildWith:" : "JK 5/25/2017 10:36",
 		"commitList" : "FB 5/26/2017 14:31",
 		"initialize" : "FB 5/26/2017 14:29",
-		"labelString" : "FB 5/26/2017 14:32" } }
+		"labelString" : "FB 5/26/2017 14:32",
+		"searchTerm" : "JK 5/25/2017 10:56",
+		"searchTerm:" : "JK 5/25/2017 11:37" } }
