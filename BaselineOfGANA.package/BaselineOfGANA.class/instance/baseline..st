@@ -3,7 +3,7 @@ baseline: spec
 	<baseline>
 	
 	spec for: #common do: [
-		spec package: 'Squot' with: [spec loads: #('default');
+		spec baseline: 'Squot' with: [spec loads: #('default');
 						  repository: 'github://hpi-swa/squot:master/src'].
 		spec
 			package: 'GANA' with: [spec requires: #('Squot')];
