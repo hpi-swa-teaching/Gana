@@ -6,4 +6,4 @@ buildCommitTree: builder
 		roots: #commitList;
 		nodeClass: GanaVersionTreeItemWrapper;
 		columns: { 250 .100. 100 . 100. nil};
-		frame: (0@0.07 extent: 1@0.9).
+		frame: (0.3@0.07 corner: 1@1).

@@ -3,10 +3,11 @@
 		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
 		"actionSelectRepository" : "FB 5/26/2017 14:53",
-		"buildCommitTree:" : "JK 5/25/2017 10:37",
+		"buildCommitTree:" : "FB 6/3/2017 20:44",
+		"buildGraphView:" : "FB 6/3/2017 20:42",
 		"buildRepositorySelectionButton:" : "FB 5/26/2017 14:44",
 		"buildSearchBar:" : "JK 5/25/2017 10:39",
-		"buildWith:" : "FB 6/1/2017 13:37",
+		"buildWith:" : "FB 6/3/2017 20:40",
 		"commitList" : "FB 5/26/2017 14:31",
 		"initialize" : "FB 5/26/2017 14:29",
 		"labelString" : "FB 5/26/2017 14:32",

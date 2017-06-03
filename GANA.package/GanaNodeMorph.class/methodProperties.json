@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"balloonHelpDelayTime" : "FB 6/3/2017 21:55",
+		"balloonText" : "FB 6/3/2017 21:50",
+		"keyDown:" : "FB 6/3/2017 21:49",
+		"mouseDown:" : "FB 6/3/2017 21:46",
+		"mouseEnter:" : "FB 6/3/2017 21:44",
+		"wantseEveryMouseMove" : "FB 6/3/2017 21:52" } }
