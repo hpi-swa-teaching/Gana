@@ -1,7 +1,12 @@
 as yet unclassified
 initializeSubmorphs
 
-	| circleSize |
+	| circleSize vertices |
 	circleSize := 30@30.
-	1 to: self graphSource size do: [ :row |
-		self positionNodeAt: (self graphSourceLeftness at: row)@row - (1@1) With: 'hi'].
+	vertices := OrderedCollection new.
+	1 to: self graphSource size do: [ :row || p |
+		p := (self graphSourceLeftness at: row)@row - (1@1).
+		self positionNodeAt: p With: 'hi'.
+		vertices add: p].
+	vertices := (vertices * circleSize) + (10@10).
+	self addMorphBack: (self defaultLine setVertices: vertices asArray; yourself).
