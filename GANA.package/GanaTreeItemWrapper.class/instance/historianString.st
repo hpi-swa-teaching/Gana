@@ -1,4 +1,4 @@
 as yet unclassified
 historianString
 
-	^ (self version historians collect: [:historian | historian name]) joinSeparatedBy: '~'
+	^ (self item historians collect: [:historian | historian name]) joinSeparatedBy: '~'

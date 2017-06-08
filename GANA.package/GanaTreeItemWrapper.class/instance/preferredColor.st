@@ -1,6 +1,6 @@
 as yet unclassified
 preferredColor
 
-	self version isStartOfHistorian
+	self item isStartOfHistorian
 		ifTrue: [^ self firstVersionColor ]
 		 ifFalse:  [^super highlightColor]

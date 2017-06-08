@@ -1,4 +1,4 @@
 as yet unclassified
 summary
 
-	^self version summary
+	^self item summary
