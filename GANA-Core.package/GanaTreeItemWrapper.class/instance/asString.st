@@ -3,7 +3,7 @@ asString
 
 	| date commitHash author message historians version |
 	self flag: #refactor. "Use a default class side dict for format magic numbers"
-	version := self item version.
+	version := self version version.
 	date := self formatDate: (version metadata at: #timestamp).
 	commitHash :=  version hexHash first: 8.
 	author := (version metadata at: #author) contractTo: 30.
