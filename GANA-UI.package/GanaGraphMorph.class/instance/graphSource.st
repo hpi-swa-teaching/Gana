@@ -1,4 +1,4 @@
 as yet unclassified
 graphSource
 
-	^ (1 to: self graphSize ) asArray
+	^ VersionGraphBuilder new searchFrom: self repo

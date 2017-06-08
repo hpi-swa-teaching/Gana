@@ -1,4 +1,4 @@
 as yet unclassified
-balloonText
+balloonText 
 
-^'ab32f8 Add a pretty feature'
+	^ item summary

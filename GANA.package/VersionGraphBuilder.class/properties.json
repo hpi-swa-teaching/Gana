@@ -1,14 +1,14 @@
 {
-	"category" : "GANA-UI",
+	"category" : "GANA-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"item" ],
-	"name" : "GanaNodeMorph",
+		 ],
+	"name" : "VersionGraphBuilder",
 	"pools" : [
 		 ],
-	"super" : "CircleMorph",
+	"super" : "VersionListBuilder",
 	"type" : "normal" }

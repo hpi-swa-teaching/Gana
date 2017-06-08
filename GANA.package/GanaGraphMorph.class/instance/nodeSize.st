@@ -1,4 +1,4 @@
 as yet unclassified
-graphSize
+nodeSize
 
-	^20
+	^ 14

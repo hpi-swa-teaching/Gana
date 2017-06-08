@@ -1,7 +1,7 @@
 as yet unclassified
 defaultNode
 	^ GanaNodeMorph new
-		extent: 20 @ 20;
+		extent: self nodeSize asPoint;
 		color: Color orange;
 		borderColor: Color orange;
 		yourself
