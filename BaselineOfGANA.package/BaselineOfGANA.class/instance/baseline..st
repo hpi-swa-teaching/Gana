@@ -11,7 +11,7 @@ baseline: spec
 		spec
 			package: 'GANA-Core' with: [spec requires: #('Squot')];
 			package: 'GANA-UI' with: [spec requires: #('GANA-Core')];
-			package: 'GANA-Tests' with: [spec requires: #('default', 'MorphicTesting')];
+			package: 'GANA-Tests' with: [spec requires: #('default' 'MorphicTesting')];
 			
 			group: 'default' with: #('GANA-Core' 'GANA-UI');
 			group: 'tests' with: #('GANA-Tests')]
