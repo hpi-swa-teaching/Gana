@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"searchTerm" ],
+		"searchTerm",
+		"workingCopy" ],
 	"name" : "GanaBrowser",
 	"pools" : [
 		 ],
