@@ -1,4 +1,4 @@
 as yet unclassified
 commitList 
 
-	^ VersionListBuilder new searchFrom: workingCopy repository
+	^ GanaVersionListBuilder new searchFrom: workingCopy repository

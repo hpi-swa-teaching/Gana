@@ -1,5 +1,5 @@
 as yet unclassified
 setUp
 	
-	builder := VersionListBuilder new.
+	builder := GanaVersionListBuilder new.
 	squitRepository := MockSquitRepository new.
