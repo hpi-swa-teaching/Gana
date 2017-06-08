@@ -9,4 +9,4 @@ asString
 	author := (version metadata at: #author) contractTo: 30.
 	message := (version message lines first) truncateWithElipsisTo: 80.
 	historians := '[', self historianString , ']'.
-	^ historians , String tab, commitHash, String tab, date, String tab, author, String tab, message
+	^ String tab, historians , String tab, commitHash, String tab, date, String tab, author, String tab, message
