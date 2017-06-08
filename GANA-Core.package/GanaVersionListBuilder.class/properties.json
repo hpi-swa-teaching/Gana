@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "VersionGraphBuilder",
+		"seen",
+		"versionList",
+		"searchFrontier" ],
+	"name" : "GanaVersionListBuilder",
 	"pools" : [
 		 ],
-	"super" : "VersionListBuilder",
+	"super" : "Object",
 	"type" : "normal" }

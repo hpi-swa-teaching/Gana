@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"seen",
-		"versionList",
-		"searchFrontier" ],
-	"name" : "VersionListBuilder",
+		"historiansNames",
+		"historians",
+		"historianHead" ],
+	"name" : "GanaVersionWrapper",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SquitVersionWrapper",
 	"type" : "normal" }
