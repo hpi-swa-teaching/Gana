@@ -1,4 +1,4 @@
 accessing
 visualisationBubble
 
-	^ visualisationBubble ifNil: [self defaultVisualisationBubble]
+	^ self visualisationBubbleCreator value
