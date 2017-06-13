@@ -1,4 +1,4 @@
 as yet unclassified
 graphSource
 
-	^ VersionGraphBuilder new searchFrom: self repo
+	^ GanaVersionGraphBuilder new searchFrom: self repo
