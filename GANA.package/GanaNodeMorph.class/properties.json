@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"item" ],
+	"name" : "GanaNodeMorph",
+	"pools" : [
+		 ],
+	"super" : "CircleMorph",
+	"type" : "normal" }

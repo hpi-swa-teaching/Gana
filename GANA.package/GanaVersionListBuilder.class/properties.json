@@ -1,0 +1,16 @@
+{
+	"category" : "GANA-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"seen",
+		"versionList",
+		"searchFrontier" ],
+	"name" : "GanaVersionListBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

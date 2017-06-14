@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"balloonHelpDelayTime" : "FB 6/4/2017 12:36",
+		"balloonText" : "FB 6/4/2017 12:26",
+		"initialize" : "FB 6/13/2017 17:41",
+		"item" : "FB 6/4/2017 12:23",
+		"item:" : "FB 6/4/2017 12:23",
+		"keyDown:" : "FB 6/3/2017 21:49",
+		"mouseDown:" : "FB 6/3/2017 21:46",
+		"mouseEnter:" : "FB 6/3/2017 21:44",
+		"wantseEveryMouseMove" : "FB 6/3/2017 21:52" } }

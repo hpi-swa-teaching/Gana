@@ -4,15 +4,9 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec baseline: 'Squot' with: [spec loads: #('default');
-							 repository: 'github://hpi-swa/squot:master/src'];
-		"MorphicTesting"
-		baseline: 'Project12' with: [spec loads: #('default');
-						            repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages'].
-
+						  repository: 'github://hpi-swa/squot:master/src'].
 		spec
-			package: 'GANA-Core' with: [spec requires: #('Squot')];
-			package: 'GANA-UI' with: [spec requires: #('GANA-Core')];
-			package: 'GANA-Tests' with: [spec requires: #('default' 'Project12')];
+			package: 'GANA' with: [spec requires: #('Squot')];
 			
-			group: 'default' with: #('GANA-Core' 'GANA-UI');
-			group: 'tests' with: #('GANA-Tests')]
+			group: 'default' with: #('GANA');
+			group: 'tests' with: #('GANA')]
