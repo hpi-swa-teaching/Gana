@@ -4,9 +4,9 @@ baseline: spec
 	
 	spec for: #common do: [
 		spec baseline: 'Squot' with: [spec loads: #('default');
-							 repository: 'github://hpi-swa/squot:master/src'].
+							 repository: 'github://hpi-swa/squot:master/src'];
 		"MorphicTesting"
-		spec baseline: 'Project12' with: [spec loads: #('default');
+		baseline: 'Project12' with: [spec loads: #('default');
 						            repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages'].
 
 		spec
