@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"setUp" : "JK 6/1/2017 14:27",
-		"testCorrectMessageAbbreviation" : "LH 6/7/2017 16:39",
+		"setUpMock" : "LH 6/14/2017 16:41",
+		"setUpMockMessage" : "LH 6/14/2017 16:42",
+		"testCorrectMessageAbbreviation" : "LH 6/14/2017 16:29",
 		"testHeadOfBranch" : "LH 6/7/2017 15:15",
 		"testSearchBar" : "JK 6/8/2017 14:04" } }
