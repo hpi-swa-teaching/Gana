@@ -1,0 +1,15 @@
+{
+	"category" : "GANA-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"repository" ],
+	"name" : "MockWorkingCopy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
