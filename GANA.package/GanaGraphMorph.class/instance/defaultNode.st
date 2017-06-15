@@ -1,7 +1,7 @@
 as yet unclassified
 defaultNode
-	^ GanaNodeMorph new
+	^ CircleMorph new
 		extent: self nodeSize asPoint;
-		color: Color orange;
-		borderColor: Color orange;
+		color: UserInterfaceTheme current class blue;
+		borderColor: UserInterfaceTheme current class blue;
 		yourself

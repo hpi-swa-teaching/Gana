@@ -2,13 +2,13 @@
 	"class" : {
 		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
-		"actionSelectRepository" : "FB 5/26/2017 14:53",
+		"actionSelectRepository" : "FB 6/14/2017 17:00",
 		"buildCommitTree:" : "FB 6/13/2017 18:26",
 		"buildRepositorySelectionButton:" : "FB 5/26/2017 14:44",
 		"buildSearchBar:" : "JK 6/8/2017 13:58",
 		"buildWith:" : "FB 6/13/2017 18:26",
-		"commitList" : "FB 6/13/2017 20:13",
-		"initialize" : "JK 6/8/2017 14:23",
+		"commitList" : "FB 6/14/2017 16:56",
+		"initialize" : "FB 6/14/2017 16:57",
 		"labelString" : "FB 5/26/2017 14:32",
 		"refresh" : "FB 5/26/2017 14:54",
 		"searchTerm" : "JK 5/25/2017 10:56",

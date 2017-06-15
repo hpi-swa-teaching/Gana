@@ -1,7 +1,8 @@
 as yet unclassified
-initialize 
-
-	super initialize.
+initializeFor: aRepository
+	
+	self repository: aRepository.
 	self color: Color transparent.
 	font := Preferences standardListFont.
 	self initializeSubmorphs.
+	
