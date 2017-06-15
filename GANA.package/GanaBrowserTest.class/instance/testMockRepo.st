@@ -1,5 +1,5 @@
 as yet unclassified
-setUpMockMessage
+testMockRepo
 
 	| version1 version2 |
 	squitRepository := MockSquitRepository new.	
@@ -8,5 +8,6 @@ setUpMockMessage
 	squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version1).
 	self subject model workingCopy: squitRepository.
 	self subject model refresh.
+	
 	
 	
