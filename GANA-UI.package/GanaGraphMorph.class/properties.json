@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"font" ],
+		"font",
+		"repository" ],
 	"name" : "GanaGraphMorph",
 	"pools" : [
 		 ],

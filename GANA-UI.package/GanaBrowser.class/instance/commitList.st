@@ -3,8 +3,8 @@ commitList
 
 	| list g x y segmentSize |
 	self flag: #refactor. "How do we save the list heights etc.?"
-	list := GanaVersionListBuilder new searchFrom: SquotWorkingCopy  registered first repository.
-	g := GanaGraphMorph new.
+	list := GanaVersionListBuilder new searchFrom: self repository.
+	g := GanaGraphMorph newFor: self repository.
 	x := 200.
 	y := 14.
 	segmentSize := x@y.

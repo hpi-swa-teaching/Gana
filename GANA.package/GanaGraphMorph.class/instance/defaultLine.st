@@ -1,5 +1,5 @@
 as yet unclassified
 defaultLine
 	^ LineMorph new
-	lineColor: Color white;
+	lineColor: Color lightGray;
 	lineWidth: 3;yourself
