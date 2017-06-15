@@ -3,7 +3,7 @@
 		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
 		"actionSelectRepository" : "FB 6/15/2017 13:23",
-		"applySearchTermTo:" : "JK 6/15/2017 22:06",
+		"applySearchTermTo:" : "JK 6/15/2017 22:15",
 		"buildCommitTree:" : "FB 6/13/2017 18:26",
 		"buildRepositorySelectionButton:" : "FB 5/26/2017 14:44",
 		"buildSearchBar:" : "JK 6/14/2017 16:43",
@@ -15,6 +15,6 @@
 		"refresh" : "FB 5/26/2017 14:54",
 		"repository" : "FB 6/15/2017 13:22",
 		"searchTerm" : "JK 5/25/2017 10:56",
-		"searchTerm:" : "JK 6/15/2017 14:29",
+		"searchTerm:" : "JK 6/15/2017 22:14",
 		"workingCopy" : "JK 6/8/2017 14:24",
 		"workingCopy:" : "JK 6/8/2017 14:24" } }
