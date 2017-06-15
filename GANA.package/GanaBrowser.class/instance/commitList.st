@@ -11,4 +11,5 @@ commitList
 	list withIndexDo: [:each :index| | bubbleSegment  |
 		bubbleSegment :=  ( 0 @ y * (index - 1) extent: segmentSize).
 		each visualisationBubbleCreator: [ g imageFormForRectangle: bubbleSegment.].].
+		self hasSearchTerm ifTrue: [list := list select: [:versionWrapper | versionWrapper version shortId includesSubstring: self searchTerm]. ].
 	^ list
