@@ -2,4 +2,4 @@ initialize-release
 initialize 
 	
 	super initialize.
-	workingCopy := SquotWorkingCopy registered first repository.
+	workingCopy := SquotWorkingCopy registered first.
