@@ -12,7 +12,7 @@ testSearchAuthor
 	version3 author: 'Blubl'.
 	searchForJuliane := '@Juliane'.
 	incompleteSearchTerm := '@E'.
-		workingCopy := MockWorkingCopy new 
+	workingCopy := MockWorkingCopy new 
 		name: 'fake';
 		repository: squitRepository.
 	self subject model workingCopy: workingCopy.
