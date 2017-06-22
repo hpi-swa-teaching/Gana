@@ -1,5 +1,5 @@
 as yet unclassified
 defaultLine
 	^ LineMorph new
-	lineColor: Color lightGray;
+	lineColor: UserInterfaceTheme current class blue;
 	lineWidth: 3;yourself
