@@ -5,10 +5,10 @@
 		"setUp" : "JK 6/1/2017 14:27",
 		"testBuildBrowser" : "JK 6/14/2017 16:09",
 		"testCorrectMessageAbbreviation" : "LH 6/14/2017 16:29",
-		"testHeadOfBranch" : "LH 6/7/2017 15:15",
-		"testMockRepo" : "JK 6/15/2017 14:23",
-		"testSearchAbbreviatedHash" : "JK 6/15/2017 21:45",
-		"testSearchAuthor" : "JK 6/15/2017 22:28",
+		"testHeadOfBranch" : "JK 6/22/2017 15:31",
+		"testMockRepo" : "JK 6/22/2017 15:31",
+		"testSearchAbbreviatedHash" : "JK 6/22/2017 15:32",
+		"testSearchAuthor" : "JK 6/22/2017 15:30",
 		"testSearchBar" : "JK 6/8/2017 14:04",
-		"testSearchIgnoreCaps" : "JK 6/15/2017 22:13",
-		"testSearchMessage" : "JK 6/15/2017 22:07" } }
+		"testSearchIgnoreCaps" : "JK 6/22/2017 15:31",
+		"testSearchMessage" : "JK 6/22/2017 15:30" } }

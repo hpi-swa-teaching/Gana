@@ -1,8 +1,8 @@
 as yet unclassified
 testSearchIgnoreCaps
 
-	| version2 workingCopy version3 searchTermCaps searchTermLow |
-	squitRepository := MockSquitRepository new.	
+	| version2 workingCopy version3 searchTermCaps searchTermLow squitRepository |
+	squitRepository := MockSquitRepository new.
 	version2 := MockVersion newWith: 'Here we are writing beautiful Pretty tests' From: #() at: TimeStamp now id:'ABFE4569'.
 	version3 := MockVersion newWith: 'pretty' From: {version2} at: TimeStamp now id:'XYUALIWL'.
 	squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version3).

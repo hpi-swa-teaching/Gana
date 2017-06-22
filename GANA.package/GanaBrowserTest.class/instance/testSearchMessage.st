@@ -1,8 +1,8 @@
 as yet unclassified
 testSearchMessage
 
-	| version1 version2 workingCopy version3 searchTerm |
-	squitRepository := MockSquitRepository new.	
+	| version1 version2 workingCopy version3 searchTerm squitRepository |
+	squitRepository := MockSquitRepository new.
 	version1 := MockVersion newWith: 'Message To The SWT Teaching Team' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: 'Here we are writing beautiful pretty tests' From: {version1} at: TimeStamp now id:'ABFE4569'.
 	version3 := MockVersion newWith: 'pretty' From: {version2} at: TimeStamp now id:'XYUALIWL'.
