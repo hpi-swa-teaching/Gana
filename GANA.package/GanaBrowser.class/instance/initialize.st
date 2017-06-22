@@ -2,4 +2,6 @@ initialize-release
 initialize 
 	
 	super initialize.
-	workingCopy := SquotWorkingCopy registered first ifNil: [self dummyWorkingCopy].
+	workingCopy := SquotWorkingCopy registered 
+		ifNotEmptyDo: #first 
+		ifEmpty: [self dummyWorkingCopy].
