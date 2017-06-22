@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "JK 6/1/2017 14:27",
 		"testBuildBrowser" : "JK 6/14/2017 16:09",
-		"testCorrectMessageAbbreviation" : "LH 6/14/2017 16:29",
+		"testCorrectMessageAbbreviation" : "LH 6/22/2017 16:33",
 		"testHeadOfBranch" : "JK 6/22/2017 15:31",
 		"testMockRepo" : "JK 6/22/2017 15:31",
 		"testSearchAbbreviatedHash" : "JK 6/22/2017 15:32",
