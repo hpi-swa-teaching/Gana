@@ -1,7 +1,7 @@
 as yet unclassified
 testSearchAuthor
 
-	| version1 version2 incompleteSearchTerm workingCopy version3 searchForJuliane |
+	| version1 version2 incompleteSearchTerm workingCopy version3 searchForJuliane squitRepository |
 	squitRepository := MockSquitRepository new.	
 	version1 := MockVersion newWith: 'I like Juliane' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: 'We Like Blubls' From: {version1} at: TimeStamp now id:'ABFE4569'.

@@ -1,7 +1,7 @@
 as yet unclassified
 testHeadOfBranch
 
-	| version1 version2 version3 workingCopy commitMorphs |
+	| version1 version2 version3 workingCopy commitMorphs squitRepository |
 	squitRepository := MockSquitRepository new.
 	version1 := MockVersion newWith: 'Not' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: 'Not' From: {version1} at: TimeStamp now id:'ABFE4569'.

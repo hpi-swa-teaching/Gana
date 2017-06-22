@@ -1,8 +1,8 @@
 as yet unclassified
 testSearchAbbreviatedHash
 
-	| version1 version2 completeSearchTerm incompleteSearchTerm workingCopy version3 |
-	squitRepository := MockSquitRepository new.	
+	| version1 version2 completeSearchTerm incompleteSearchTerm workingCopy version3 squitRepository |
+	squitRepository := MockSquitRepository new.
 	version1 := MockVersion newWith: '1' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'ABFE4569'.
 	version3 := MockVersion newWith: 'ABblabale' From: {version2} at: TimeStamp now id:'XYUALIWL'.
