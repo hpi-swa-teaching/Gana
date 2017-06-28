@@ -1,14 +1,23 @@
 as yet unclassified
 testCorrectMessageAbbreviation
 
-	
+	 "v1 -- v2 "
+	 "            ~'mOCKmASTER2"
+	 | version1 version2 string workingCopy testMessage output squitRepository|
+	 string := ''.
+	 testMessage := (1 to: 90 do: [:j| string := string, 'a']).
+	 squitRepository := MockSquitRepository new. 
+	 version1 := MockVersion newWith: string From: #() at: TimeStamp now id:'11111111'.
+	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'22222222'.
+	 squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version2).
+	 workingCopy := MockWorkingCopy new 
+		 name: 'fake';
+		 repository: squitRepository.
+	 self subject model workingCopy: workingCopy.
+	 self subject model refresh.
+	 output := (Array streamContents: [:stream| 
+	       self subject allMorphsDo: [:morph|(morph isKindOf: IndentingListItemMorph) ifTrue: [stream nextPut: morph]]]).
 
-"	| arrayWithMessages |
+	output do: [:element | self assert: (element contents substrings seventh size < 81)].
 	
-	arrayWithMessages := (Array streamContents: [:stream | 
-	      self subject allMorphsDo: [:morph | (morph isKindOf: IndentingListItemMorph) ifTrue: [stream nextPut: morph]]]).
-	arrayWithMessages do: [ :element | self assert: (element complexContents item version message size <= 80)]."
-	"Messages should be abbreviated after 80 characters. The following statement shows the sizes of the different messages."
-	"arrayWithMessages do: [ :element | | e | self assert: ((e := element complexContents item version message size) <= 80). Transcript show: e; cr.]. "
-
 	
