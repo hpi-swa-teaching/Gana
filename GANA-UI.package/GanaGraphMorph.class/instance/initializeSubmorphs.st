@@ -1,7 +1,11 @@
 as yet unclassified
 initializeSubmorphs
 
-	| circleSize vertices commitList |
+	| circleSize vertices commitList                         pq hashset lastCommitPerColumn |
+	
+	pq := Heap new.
+	hashset := Set new.
+	lastCommitPerColumn := OrderedCollection new.
 	circleSize := self nodeSize asPoint.
 	vertices := OrderedCollection new.
 	commitList := self graphSource.

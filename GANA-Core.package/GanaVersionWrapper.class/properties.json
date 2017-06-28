@@ -9,7 +9,8 @@
 		"historiansNames",
 		"historians",
 		"historianHead",
-		"visualisationBubbleCreator" ],
+		"visualisationBubbleCreator",
+		"visualParentsCount" ],
 	"name" : "GanaVersionWrapper",
 	"pools" : [
 		 ],
