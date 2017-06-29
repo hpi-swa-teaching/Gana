@@ -7,10 +7,5 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #useLatestMetacello : true
     }
-  ], 
-  #testing : {
-    #coverage : {
-      #packages : [ 'GANA-Core', 'GANA-UI' ]
-    }
-  }
+  ]
 }
