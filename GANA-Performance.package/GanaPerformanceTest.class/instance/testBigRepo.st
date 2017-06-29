@@ -2,7 +2,7 @@ as yet unclassified
 testBigRepo
 
 	| creationTime maxAcceptedTime |
-	maxAcceptedTime := 1500.
+	maxAcceptedTime := 1600.
 	creationTime := Time millisecondsToRun: [| bigRepo squitRepository version versionFirst workingCopy2 |
 	squitRepository := MockSquitRepository new.
 	version := MockVersion newWith: '1' From: #() at: TimeStamp now id:'11111111'.
