@@ -1,11 +1,11 @@
 as yet unclassified
-testSearchAbbreviatedHash
+testSearchAbbreviatedHashFromStart
 
 	| version1 version2 completeSearchTerm incompleteSearchTerm workingCopy version3 squitRepository |
 	squitRepository := MockSquitRepository new.
 	version1 := MockVersion newWith: '1' From: #() at: TimeStamp now id:'ABCD1234'.
-	version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'ABFE4569'.
-	version3 := MockVersion newWith: 'ABblabale' From: {version2} at: TimeStamp now id:'XYUALIWL'.
+	version2 := MockVersion newWith: '#AB a commit Reference in Message' From: {version1} at: TimeStamp now id:'87FE4569'.
+	version3 := MockVersion newWith: 'ABblabale' From: {version2} at: TimeStamp now id:'XYABLIWL'.
 	squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version3).
 	incompleteSearchTerm := '#AB'.
 	completeSearchTerm := '#ABCD1234'.

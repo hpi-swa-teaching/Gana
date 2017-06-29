@@ -1,13 +1,16 @@
 {
 	"class" : {
+		"explanationForSearch" : "JK 6/28/2017 23:12",
 		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
+		"actionDisplayHelpForSearch" : "JK 6/28/2017 23:06",
 		"actionSelectRepository" : "FB 6/15/2017 13:23",
-		"applySearchTermTo:" : "JK 6/15/2017 22:30",
+		"applySearchTermTo:" : "JK 6/28/2017 22:05",
 		"buildCommitTree:" : "FB 6/13/2017 18:26",
+		"buildHelpForSearch:" : "JK 6/28/2017 23:05",
 		"buildRepositorySelectionButton:" : "FB 5/26/2017 14:44",
-		"buildSearchBar:" : "JK 6/14/2017 16:43",
-		"buildWith:" : "FB 6/13/2017 18:26",
+		"buildSearchBar:" : "JK 6/28/2017 23:04",
+		"buildWith:" : "JK 6/28/2017 22:54",
 		"commitList" : "JK 6/15/2017 21:49",
 		"dummyWorkingCopy" : "FB 6/22/2017 14:17",
 		"hasSearchTerm" : "JK 6/15/2017 14:32",

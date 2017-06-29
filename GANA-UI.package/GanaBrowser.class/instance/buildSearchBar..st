@@ -8,4 +8,4 @@ buildSearchBar: builder
 		setText: #searchTerm:;
 		indicateUnacceptedChanges: false;
 		help: 'Search...';
-		frame: (0.7@0 corner: 1@0.07)
+		frame: (0.7@0 corner: 0.97@0.07)
