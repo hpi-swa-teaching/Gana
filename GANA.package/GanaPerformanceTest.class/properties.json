@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-Performance",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GanaPerformanceTest",
+	"pools" : [
+		 ],
+	"super" : "GanaBrowserTest",
+	"type" : "normal" }

@@ -13,6 +13,6 @@ baseline: spec
 			package: 'GANA-Core' with: [spec requires: #('Squot')];
 			package: 'GANA-UI' with: [spec requires: #('GANA-Core')];
 			package: 'GANA-Tests' with: [spec requires: #('default' 'Project12')];
-			
+			package: 'GANA-Performance' with: [spec requires: #('GANA-Tests')];
 			group: 'default' with: #('GANA-Core' 'GANA-UI');
-			group: 'tests' with: #('GANA-Tests')]
+			group: 'tests' with: #('GANA-Tests' 'GANA-Performance')]
