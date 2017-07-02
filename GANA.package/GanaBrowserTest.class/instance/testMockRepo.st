@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMockRepo
 
 	| version1 version2 workingCopy squitRepository |
