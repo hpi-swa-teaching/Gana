@@ -1,3 +1,3 @@
 accessing
 workingCopy: anObject
-	workingCopy := anObject
+	workingCopy := anObject.
