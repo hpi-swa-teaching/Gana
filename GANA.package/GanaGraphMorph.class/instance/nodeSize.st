@@ -1,4 +1,4 @@
 as yet unclassified
 nodeSize
 
-	^ 24
+	^ 14

@@ -6,7 +6,7 @@ commitList
 	list := GanaVersionListBuilder new searchFrom: self repository.
 	g := GanaGraphMorph newFor: self repository.
 	x := 400.
-	y := 24.
+	y := 30.
 	segmentSize := x@y.
 	list withIndexDo: [:each :index| | bubbleSegment  |
 						bubbleSegment :=  ( 0 @ y * (index - 1) extent: segmentSize).
