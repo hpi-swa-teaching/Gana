@@ -27,9 +27,6 @@ initializeSubmorphs
 							child := pqchildren first.
 							childInfo := infoDict at: child. "Consists of painted Column and potential Successor"
 							(childInfo size < 2) ifTrue: [positionDict at: commit put: (self positionNodeAt: rowIndex withColumn: (childInfo first) And: (commit metadata at: #hash)). "We can be sure this exists because if we have children then they already have had to be painted and thus added to this dict"
-													1 to: (pqchildren size) do: [ :count |
-														self positionLineBetween: (positionDict at: (pqchildren removeFirst)) And: (positionDict at: commit).
-													].
 													lastCommitPerColumn at: (childInfo first) put: commit.
 													infoDict at: child put: (Array with: (childInfo first) with: commit).
 													infoDict at: commit put: (Array with: (childInfo first))
@@ -37,8 +34,11 @@ initializeSubmorphs
 													]
 											ifFalse: [lastCommitPerColumn add: commit.
 														positionDict at: commit put: (self positionNodeAt: rowIndex withColumn: (lastCommitPerColumn size)).
-														infoDict at: commit put: (Array with: (lastCommitPerColumn size))
+														infoDict at: commit put: (Array with: (lastCommitPerColumn size)).
 														].
+								1 to: (pqchildren size) do: [ :count |
+														self positionLineBetween: (positionDict at: (pqchildren removeFirst)) And: (positionDict at: commit).
+								].
 							]
 							ifAbsent: [positionDict at: commit put: (self positionNodeAt: rowIndex withColumn: (lastCommitPerColumn size)). "This should only be called for children-less commits, eg branch pointer"
 									lastCommitPerColumn add: commit.
