@@ -4,6 +4,11 @@ buildGanaPluggableTree: aSpec
 	widget := GanaPluggableTree new.
 	self register: widget id: aSpec name.
 	widget model: aSpec model.
+	
+	"GANA added START"
+	widget doubleClickSelector: aSpec doubleClick. 
+	"GANA addede END"
+	
 	widget getSelectedPathSelector: aSpec getSelectedPath.
 	widget setSelectedSelector: aSpec setSelected.
 	widget getSelectedSelector: aSpec getSelected.

@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GanaChangedArtifactsViewer",
+	"pools" : [
+		 ],
+	"super" : "SquotChangedArtifactsChooser",
+	"type" : "normal" }
