@@ -1,7 +1,7 @@
 as yet unclassified
 buildCommitTree: builder
 
-	^ builder pluggableTreeSpec new
+	^ GanaPluggableTreeSpec new
 		model: self;
 		roots: #commitList;
 		nodeClass: GanaTreeItemWrapper;

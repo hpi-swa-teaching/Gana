@@ -1,0 +1,4 @@
+layout
+indentingItemClass
+
+	^ GanaIndentingListItemMorph
