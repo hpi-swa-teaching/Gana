@@ -1,5 +1,5 @@
 as yet unclassified
-testMockRepoCrossoverMerge
+mockWorkingCopyCrossoverMerge
 
 	" - v1 ----- v3 ----- v5 ----- v6 - ~ master           "
 	"     \         \         /         /                               "
@@ -21,7 +21,5 @@ testMockRepoCrossoverMerge
 	 workingCopy := MockWorkingCopy new 
 		 name: 'fake';
 		 repository: squitRepository.
-	 self subject model workingCopy: workingCopy.
-	 self subject model refresh.
 	 
-	 self assert: true.	
+	^workingCopy	

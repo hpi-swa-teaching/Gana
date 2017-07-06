@@ -10,5 +10,5 @@
 	"name" : "EdgeCaseMocks",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "Object",
 	"type" : "normal" }

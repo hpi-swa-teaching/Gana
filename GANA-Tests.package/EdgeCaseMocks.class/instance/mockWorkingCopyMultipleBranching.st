@@ -1,5 +1,5 @@
 as yet unclassified
-testMockRepoMultipleBranching
+mockWorkingCopyMultipleBranching
 
 	" -- v1 ---------v4 ---- v6 --  ~master             "
 	"     \  \         /        /                                  "

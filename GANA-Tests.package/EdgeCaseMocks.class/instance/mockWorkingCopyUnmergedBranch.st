@@ -1,5 +1,5 @@
 as yet unclassified
-testMockRepoUnmergedBranch
+mockWorkingCopyUnmergedBranch
 
 	" - v1 ---- v2 ---- v4 ---- v5 - ~master            "
 	"              \                                                 "

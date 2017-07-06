@@ -1,5 +1,5 @@
 as yet unclassified
-testMockRepoSimpleMerge
+mockWorkingCopySimpleMerge
 
 	" -- v1 -- v2 -- v4 -- ~master       "
 	"            \        /                         "

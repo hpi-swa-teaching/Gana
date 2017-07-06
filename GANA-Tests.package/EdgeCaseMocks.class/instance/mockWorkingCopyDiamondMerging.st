@@ -1,5 +1,5 @@
 as yet unclassified
-testMockRepoDiamondMerging
+mockWorkingCopyDiamondMerging
 
 	" -- v1 ---- v3 ----- v5 -- ~ master            "
 	"      \         \       /                                 "

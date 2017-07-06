@@ -2,11 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "LH 7/6/2017 17:45",
-		"testMockRepoCrossoverMerge" : "LH 7/6/2017 17:45",
-		"testMockRepoDiamondMerging" : "LH 7/6/2017 17:50",
-		"testMockRepoMultipleBranching" : "LH 7/6/2017 17:49",
-		"testMockRepoOctopusMerge" : "LH 7/6/2017 17:48",
-		"testMockRepoSimple" : "LH 7/6/2017 17:48",
-		"testMockRepoSimpleMerge" : "LH 7/6/2017 17:47",
-		"testMockRepoUnmergedBranch" : "LH 7/6/2017 17:47" } }
+		"mockWorkingCopyCrossoverMerge" : "SB 7/6/2017 22:03",
+		"mockWorkingCopyDiamondMerging" : "SB 7/6/2017 22:03",
+		"mockWorkingCopyMultipleBranching" : "SB 7/6/2017 22:04",
+		"mockWorkingCopyOctopusMerge" : "SB 7/6/2017 22:04",
+		"mockWorkingCopySimple" : "SB 7/6/2017 22:04",
+		"mockWorkingCopySimpleMerge" : "SB 7/6/2017 22:04",
+		"mockWorkingCopyUnmergedBranch" : "SB 7/6/2017 22:04" } }
