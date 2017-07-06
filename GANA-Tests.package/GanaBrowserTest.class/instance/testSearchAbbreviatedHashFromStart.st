@@ -10,13 +10,13 @@ testSearchAbbreviatedHashFromStart
 	version3 := MockVersion newWith: 'ABblabale' From: {version2} at: TimeStamp now id:'XYABLIWL'.
 	self modelWorkingCopy: (self workingCopyWithMasterAt: version3).
 	self assertCommitListIncludesAll: { version1 . version2 . version3 }.
-	
+
 	ganaBrowser searchTerm: incompleteSearchTerm.
-	self 
+	self
 		assertCommitListIncludesAll: { version1 . version2 };
 		assertCommitListIncludesNone: { version3 }.
-	
+
 	ganaBrowser searchTerm: completeSearchTerm.
-	self 
+	self
 		assertCommitListIncludesAll: { version1 };
 		assertCommitListIncludesNone: { version2 . version3 }.

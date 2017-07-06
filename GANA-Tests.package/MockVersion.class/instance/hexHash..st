@@ -1,3 +1,3 @@
 accessing
-hexHash: anObject
-	hexHash := anObject
+hexHash: aString
+	hexHash := aString.
