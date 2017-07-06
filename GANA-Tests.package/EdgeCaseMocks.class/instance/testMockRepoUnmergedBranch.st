@@ -1,7 +1,7 @@
 as yet unclassified
-mockRepoUnmergedBranch
+testMockRepoUnmergedBranch
 
-	" - v1 ---- v2 ---- v3 ---- v4 - ~master            "
+	" - v1 ---- v2 ---- v4 ---- v5 - ~master            "
 	"              \                                                 "
 	"               \                                                "
-	"                - v5 --              ~ otherBranch1 "
+	"                - v3 --              ~ otherBranch1 "
