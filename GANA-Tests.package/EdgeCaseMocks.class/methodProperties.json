@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mockRepoCrossoverMerge" : "LH 7/6/2017 14:58",
+		"mockRepoDiamondMerging" : "LH 7/6/2017 14:46",
+		"mockRepoMultipleBranching" : "LH 7/6/2017 14:43",
+		"mockRepoOctopusMerge" : "LH 7/6/2017 15:02",
+		"mockRepoSimple" : "LH 7/6/2017 14:37",
+		"mockRepoSimpleMerge" : "LH 7/6/2017 14:38",
+		"mockRepoUnmergedBranch" : "LH 7/6/2017 15:04" } }
