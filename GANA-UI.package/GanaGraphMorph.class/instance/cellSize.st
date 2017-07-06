@@ -1,4 +1,4 @@
 as yet unclassified
-nodeSize
+cellSize
 
-	^ 24
+	^ 30
