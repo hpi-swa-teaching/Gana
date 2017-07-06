@@ -5,7 +5,7 @@ initializeSubmorphs
 	self flag: #refactor. "Create a class for this?"
 	
 	heapSortBlock := [ :a :b | (a metadata at: #timestamp) > (b metadata at: #timestamp) ]. "Potentially dangerous when using multiple time zones"
-	"pq := Heap sortBlock: heapSortBlock."
+	"pq := Heap sortBlock: heapSortBlock. - We don't need a priority queue anymore as we get a complete commitlist already sorted by timestamps"
 	childDict := Dictionary new.
 	infoDict := Dictionary new.
 	positionDict := Dictionary new.
@@ -13,12 +13,11 @@ initializeSubmorphs
 	circleSize := self nodeSize asPoint.
 	vertices := OrderedCollection new.
 	commitList := self graphSource.
-	"pq add: (commitList first version)."
 	1 to: commitList size do: [ :rowIndex || commit |
 		commit := (commitList at: rowIndex) version.
 		1 to: (commit parents size) do: [ :count | | parent | "What if it has no parent?"
 			parent := (commit parents at: count).
-			childDict at: parent ifPresent: [:childCollection | childDict at: parent put: (childCollection add: commit; yourself)] ifAbsentPut: ["pq add: parent."
+			childDict at: parent ifPresent: [:childCollection | childDict at: parent put: (childCollection add: commit; yourself)] ifAbsentPut: [
 																													(Heap sortBlock: heapSortBlock)
 																														add: commit;
 																														yourself.]
@@ -40,8 +39,9 @@ initializeSubmorphs
 														self positionLineBetween: (positionDict at: (pqchildren removeFirst)) And: (positionDict at: commit).
 								].
 							]
-							ifAbsent: [positionDict at: commit put: (self positionNodeAt: rowIndex withColumn: (lastCommitPerColumn size)). "This should only be called for children-less commits, eg branch pointer"
+							ifAbsent: [ "This should only be called for children-less commits, eg branch pointer"
 									lastCommitPerColumn add: commit.
+									positionDict at: commit put: (self positionNodeAt: rowIndex withColumn: (lastCommitPerColumn size)).
 									infoDict at: commit put: (Array with: (lastCommitPerColumn size))
 									].
 	].
