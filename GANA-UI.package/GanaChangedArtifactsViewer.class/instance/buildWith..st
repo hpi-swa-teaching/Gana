@@ -7,10 +7,10 @@ buildWith: builder
 		children: mainWidgets;
 		frame: (LayoutFrame
 			fractions: (0@0 corner: 1@1)
-			offsets: (0@0 corner: 0@ -25));
+			offsets: (0@0 corner: 0@ 0));
 		yourself.
 	window := builder pluggableWindowSpec new.
 	window model: self;
-		label: 'Changed Artifacts' ;
+		label: self labelString;
 		children: {mainWidgetsPanel}.
 	^ builder build: window

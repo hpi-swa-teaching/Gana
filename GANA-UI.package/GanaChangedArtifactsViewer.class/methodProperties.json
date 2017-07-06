@@ -1,7 +1,7 @@
 {
 	"class" : {
-		 },
+		"from:to:" : "JK 7/6/2017 22:13" },
 	"instance" : {
-		"accept" : "FB 7/6/2017 15:47",
-		"buildWith:" : "FB 7/6/2017 21:32",
-		"cancel" : "FB 7/6/2017 15:47" } }
+		"buildWith:" : "JK 7/6/2017 22:05",
+		"labelString" : "JK 7/6/2017 22:05",
+		"labelString:" : "JK 7/6/2017 22:05" } }

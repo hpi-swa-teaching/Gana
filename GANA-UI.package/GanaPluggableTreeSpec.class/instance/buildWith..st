@@ -1,3 +1,4 @@
 as yet unclassified
 buildWith: builder
-	^builder buildGanaPluggableTree: self
+
+	^ builder buildGanaPluggableTree: self
