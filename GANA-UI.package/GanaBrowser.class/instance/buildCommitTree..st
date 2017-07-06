@@ -1,6 +1,7 @@
 as yet unclassified
 buildCommitTree: builder
-
+	
+	1 halt.
 	^ GanaPluggableTreeSpec new
 		model: self;
 		roots: #commitList;

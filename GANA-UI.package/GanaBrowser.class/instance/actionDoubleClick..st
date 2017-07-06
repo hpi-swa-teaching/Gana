@@ -11,6 +11,6 @@ actionDoubleClick: clickedTreeItemWrapper
 		parentSnapshots :=  possibleParents collect:[:v| v snapshot].
 	parentSnapshot := UIManager default chooseFrom: displayedNames values: parentSnapshots title: 'Choose the parent to diff'.]
 	ifTrue: [
-	parentSnapshot := version parents first snapshot. "be able to select parents"].
+	parentSnapshot := possibleParents first snapshot. "be able to select parents"].
 	tool := GanaChangedArtifactsViewer from: parentSnapshot to: selectedSnapshot.
 	MorphicToolBuilder open: tool.
