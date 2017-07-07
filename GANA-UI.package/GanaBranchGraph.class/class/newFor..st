@@ -1,4 +1,6 @@
 class initialization
-newFor: aRepository
+newFor: list
 
-	^ self new initializeFor: aRepository
+	^ (self new)
+			commitList: list;
+			computeGraph

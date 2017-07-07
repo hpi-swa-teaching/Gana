@@ -3,8 +3,8 @@ commitList
 
 	| list graph x y segmentSize |
 	self flag: #refactor. "How do we save the list heights etc.?"
-	list := GanaVersionListBuilder new searchFrom: self repository.
-	graph := GanaBranchGraph newFor: self repository.
+	list := GanaVersionListBuilder new searchFrom: (self repository).
+	graph := GanaBranchGraph newFor: list.
 	x := 400.
 	y := graph cellSize.
 	segmentSize := x@y.

@@ -1,3 +1,0 @@
-accessing
-columnDict
-	^ columnDict

@@ -1,20 +1,12 @@
 as yet unclassified
 initializeSubmorphs
 
-	| circleSize vertices commitList                         "pq" heapSortBlock childDict infoDict positionDict lastCommitPerColumn |
-	self flag: #refactor. "Create a class for this?"
+	| commitList                         "pq" heapSortBlock childDict infoDict positionDict lastCommitPerColumn |
+
 	
 	heapSortBlock := [ :a :b | (a metadata at: #timestamp) > (b metadata at: #timestamp) ]. "Potentially dangerous when using multiple time zones"
-	"pq := Heap sortBlock: heapSortBlock. - We don't need a priority queue anymore as we get a complete commitlist already sorted by timestamps"
-	childDict := Dictionary new.
-	infoDict := Dictionary new.
-	positionDict := Dictionary new.
-	lastCommitPerColumn := OrderedCollection new.
-	circleSize := self nodeSize asPoint.
-	vertices := OrderedCollection new.
-	commitList := self graphSource.
+
 	1 to: commitList size do: [ :rowIndex || commit |
-		commit := (commitList at: rowIndex) version.
 		1 to: (commit parents size) do: [ :count | | parent | "What if it has no parent?"
 			parent := (commit parents at: count).
 			childDict at: parent ifPresent: [:childCollection | childDict at: parent put: (childCollection add: commit; yourself)] ifAbsentPut: [

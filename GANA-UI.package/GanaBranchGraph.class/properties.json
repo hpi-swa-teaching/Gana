@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"repository",
 		"commitList",
 		"positionDict",
 		"childrenDict",
 		"verticalSuccessorDict",
-		"columnDict",
 		"lastCommitPerColumn",
 		"graph" ],
 	"name" : "GanaBranchGraph",

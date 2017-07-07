@@ -1,4 +1,6 @@
 algorithm
 putChildConnectionsBetween: position and: childrenHeap
 
-	self paintLineBetween: (positionDict at: childrenHeap removeFirst) and: position. "fails if smalltalk is pass by value and value is read only"
+	| positionA |
+	positionA := positionDict at: (childrenHeap removeFirst).
+	self paintLineBetween: positionA and: position. "fails if smalltalk is pass by value and value is read only"

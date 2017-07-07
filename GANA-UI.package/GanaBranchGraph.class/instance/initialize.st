@@ -1,7 +1,9 @@
 as yet unclassified
 initialize
-	
+
 	self
-		commitList: (GanaVersionListBuilder new searchFrom: self repository);
-		visualProperties: (Array new: (self commitList size));
-		graph: (Morph new).
+		graph: ((Morph new) color: Color transparent);
+		childrenDict: Dictionary new;
+		positionDict: Dictionary new;
+		verticalSuccessorDict: Dictionary new;
+		lastCommitPerColumn: OrderedCollection new.
