@@ -1,8 +1,11 @@
 drawing
 paintLineBetween: child and: parent
  
- 	| start end |
+ 	| start middle end line |
  	start := self cellSize asPoint * child - (self cellSize / 2 asPoint).
  	end := self cellSize asPoint * parent - (self cellSize / 2 asPoint).
- 
- 	self graph addMorphBack:( LineMorph from: start to: end color: (Color black) width: 2). 
+	(child - parent) x < 0 ifTrue: [middle := (end x)@(start y)]
+						  ifFalse: [middle := (start x)@(end y)].
+						
+	line := (PolygonMorph vertices: {start. middle. end} color: Color black borderWidth: 2 borderColor: Color black) makeOpen.
+	self graph addMorphBack: line.
