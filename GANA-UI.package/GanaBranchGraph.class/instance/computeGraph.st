@@ -1,6 +1,7 @@
 algorithm
 computeGraph
 
+	self initializeAlgorithm.
 	1 to: (commitList size) do: [ :index | | commit |
 		commit := (commitList at: index) version.
 		self fillChildDictWith: commit.

@@ -1,5 +1,5 @@
 as yet unclassified
-initialize
+initializeAlgorithm
 
 	self
 		graph: ((Morph new) color: Color transparent);
