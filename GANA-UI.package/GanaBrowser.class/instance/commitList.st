@@ -4,7 +4,7 @@ commitList
 	| graph x y segmentSize sortedCommitList |
 	self flag: #refactor. "How do we save the list heights etc.?"
 	sortedCommitList := GanaVersionListBuilder new searchFrom: (self repository).
-	graph := GanaBranchGraph newFor: sortedCommitList.
+	graph := GanaBranchGraph newFor: (sortedCommitList collect: [:wrapper | wrapper version]).
 	x := 400.
 	y := graph cellSize.
 	segmentSize := x@y.

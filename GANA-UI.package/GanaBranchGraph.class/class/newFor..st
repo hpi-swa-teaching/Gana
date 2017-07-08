@@ -3,4 +3,4 @@ newFor: list
 
 	^ (self new)
 			commitList: list;
-			computeGraph
+			createGraph
