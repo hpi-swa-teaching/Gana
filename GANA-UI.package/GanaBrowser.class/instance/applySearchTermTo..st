@@ -1,4 +1,4 @@
-as yet unclassified
+search
 applySearchTermTo: aList
 
 	(self searchTerm first = $#) ifTrue: [^ aList select: [:versionWrapper | (((versionWrapper version shortId) first: (self searchTerm size - 1)) = self searchTerm allButFirst) or: (versionWrapper version message includesSubstring: self searchTerm)]].
