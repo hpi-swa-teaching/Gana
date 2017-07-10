@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"setUp" : "SB 7/10/2017 12:17",
+		"testAddNewEdgeFromTo" : "SB 7/10/2017 13:57",
 		"testEachCommitHasAPosition" : "SB 7/10/2017 13:30",
 		"testIfEachParentHasAChild" : "SB 7/10/2017 13:40",
 		"testInitializeAlgorithm" : "SB 7/10/2017 13:49" } }
