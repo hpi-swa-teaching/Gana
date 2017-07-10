@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"setUp" : "SB 7/10/2017 12:17",
+		"testEachCommitHasAPosition" : "SB 7/10/2017 13:30" } }

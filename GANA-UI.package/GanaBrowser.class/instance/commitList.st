@@ -1,7 +1,7 @@
 as yet unclassified
 commitList 
 
-	| graph x y segmentSize sortedCommitList |
+	| x y segmentSize sortedCommitList |
 	self flag: #refactor. "How do we save the list heights etc.?"
 	sortedCommitList := GanaVersionListBuilder new searchFrom: (self repository).
 	graph := GanaBranchGraph newFor: (sortedCommitList collect: [:wrapper | wrapper version]).
