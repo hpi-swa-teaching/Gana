@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"setUp" : "SB 7/10/2017 12:17",
-		"testEachCommitHasAPosition" : "SB 7/10/2017 13:30" } }
+		"testEachCommitHasAPosition" : "SB 7/10/2017 13:30",
+		"testIfEachParentHasAChild" : "SB 7/10/2017 13:40" } }
