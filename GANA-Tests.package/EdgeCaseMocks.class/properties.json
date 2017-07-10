@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "EdgeCaseMocks",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
