@@ -6,5 +6,5 @@ paintLineBetween: child and: parent
  	end := self cellSize asPoint * parent - (self cellSize / 2 asPoint).
 	(self leftOf: child is: parent) ifTrue: [middle := (end x)@(start y - (self cellSize / 2))]
 						 		 ifFalse: [middle := (start x)@(end y + (self cellSize / 2))].
-	line := (PolygonMorph vertices: {start. middle. end} color: Color black borderWidth: 3 borderColor: Color white) makeOpen; yourself.
+	line := (PolygonMorph vertices: {start. middle. end} color: Color transparent borderWidth: 3 borderColor: Color black) makeOpen; yourself.
 	self graph addMorphBack: line.
