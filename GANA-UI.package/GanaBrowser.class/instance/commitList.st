@@ -1,15 +1,15 @@
 as yet unclassified
 commitList 
 
-	| list g x y segmentSize |
+	| graph x y segmentSize sortedCommitList |
 	self flag: #refactor. "How do we save the list heights etc.?"
-	list := GanaVersionListBuilder new searchFrom: self repository.
-	g := GanaGraphMorph newFor: self repository.
+	sortedCommitList := GanaVersionListBuilder new searchFrom: (self repository).
+	graph := GanaBranchGraph newFor: (sortedCommitList collect: [:wrapper | wrapper version]).
 	x := 400.
-	y := 30.
+	y := graph cellSize.
 	segmentSize := x@y.
-	list withIndexDo: [:each :index| | bubbleSegment  |
+	sortedCommitList withIndexDo: [:each :index| | bubbleSegment  |
 						bubbleSegment :=  ( 0 @ y * (index - 1) extent: segmentSize).
-						each visualisationBubbleCreator: [ g imageFormForRectangle: bubbleSegment.].].
-	self hasSearchTerm ifTrue: [ list :=  self applySearchTermTo: list].
-	^ list
+						each visualisationBubbleCreator: [ graph graph imageFormForRectangle: bubbleSegment.].].
+	self hasSearchTerm ifTrue: [ sortedCommitList :=  self applySearchTermTo: sortedCommitList].
+	^ sortedCommitList
