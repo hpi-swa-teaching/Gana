@@ -1,0 +1,4 @@
+defaults
+defaultCellSize
+
+	^ 30

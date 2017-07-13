@@ -4,14 +4,16 @@
 		"open" : "JK 5/25/2017 10:10" },
 	"instance" : {
 		"actionDisplayHelpForSearch" : "JK 6/28/2017 23:06",
-		"actionSelectRepository" : "FB 6/15/2017 13:23",
+		"actionSelectRepository" : "FB 7/6/2017 15:40",
+		"actionShowDiffFrom:" : "JK 7/6/2017 22:16",
 		"applySearchTermTo:" : "JK 6/28/2017 22:05",
-		"buildCommitTree:" : "FB 6/13/2017 18:26",
+		"buildCommitTree:" : "JK 7/6/2017 21:54",
 		"buildHelpForSearch:" : "JK 6/28/2017 23:05",
 		"buildRepositorySelectionButton:" : "FB 5/26/2017 14:44",
 		"buildSearchBar:" : "JK 6/28/2017 23:04",
 		"buildWith:" : "JK 6/28/2017 22:54",
-		"commitList" : "BS 7/6/2017 12:17",
+		"chooseVersionFrom:" : "JK 7/6/2017 22:21",
+		"commitList" : "FB 7/8/2017 15:36",
 		"dummyWorkingCopy" : "FB 6/22/2017 14:17",
 		"hasSearchTerm" : "JK 6/15/2017 14:32",
 		"initialize" : "FB 6/29/2017 13:56",
@@ -20,5 +22,5 @@
 		"repository" : "FB 6/15/2017 13:22",
 		"searchTerm" : "JK 5/25/2017 10:56",
 		"searchTerm:" : "JK 6/15/2017 22:14",
-		"workingCopy" : "JK 6/8/2017 14:24",
-		"workingCopy:" : "FB 7/2/2017 09:28" } }
+		"workingCopy" : "JK 7/6/2017 22:09",
+		"workingCopy:" : "JK 7/6/2017 22:08" } }
