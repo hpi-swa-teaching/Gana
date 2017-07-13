@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBigRepo" : "FB 6/29/2017 14:19" } }
+		"createRepoWith:" : "FB 7/12/2017 12:20",
+		"setUp" : "FB 7/12/2017 12:07",
+		"setUpSqueakSneezer" : "FB 7/12/2017 12:24",
+		"sqeakSneezerDuring:" : "FB 7/12/2017 12:07",
+		"testBigRepo" : "FB 7/12/2017 12:28" } }
