@@ -1,4 +1,4 @@
 search
-filterAuthorsOf: aList with: aSearchTerm
+applyAuthorFilter: aSearchTerm on: commits
 	
-	^ aList select: [:versionWrapper | (versionWrapper version metadata at: #author) asLowercase includesSubstring: aSearchTerm allButFirst asLowercase]					
+	^ commits select: [:versionWrapper | (versionWrapper version metadata at: #author) asLowercase includesSubstring: aSearchTerm allButFirst asLowercase]					
