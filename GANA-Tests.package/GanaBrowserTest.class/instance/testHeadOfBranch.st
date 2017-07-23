@@ -6,12 +6,8 @@ testHeadOfBranch
 	version1 := MockVersion newWith: 'Not' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: 'Not' From: {version1} at: TimeStamp now id:'ABFE4569'.
 	version3 := MockVersion newWith: 'I am the Head' From: {version2} at: TimeStamp now id:'XYUALIWL'.
-	squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version3).
-	workingCopy := MockWorkingCopy new 
-		name: 'fake';
-		repository: squitRepository.
-	self subject model workingCopy: workingCopy.
-	self subject model refresh.
+	 workingCopy := self newWorkingCopyWithMasterAt: version3.
+	 self setWorkingCopy: workingCopy.
 	
 	commitMorphs := (Array streamContents: [:stream| 
 	      self subject allMorphsDo: [:morph|(morph isKindOf: IndentingListItemMorph) ifTrue: [stream nextPut: morph]]]).

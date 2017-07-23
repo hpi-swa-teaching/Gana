@@ -11,15 +11,10 @@ testCorrectHashAbbreviation
 	 squitRepository := MockRepository new. 
 	 version1 := MockVersion newWith: '1' From: #() at: TimeStamp now id:string.
 	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:stringFail.
-	 squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version2).
-	 workingCopy := MockWorkingCopy new 
-		 name: 'fake';
-		 repository: squitRepository.
-	 self subject model workingCopy: workingCopy.
-	 self subject model refresh.
+	 workingCopy := self newWorkingCopyWithMasterAt: version2.
+	 self setWorkingCopy: workingCopy.
 	 output := (Array streamContents: [:stream| 
 	       self subject allMorphsDo: [:morph|(morph isKindOf: IndentingListItemMorph) ifTrue: [stream nextPut: morph]]]).
-
 	output do: [:element | self assert: (element contents substrings second size = 8)].
 	output do: [:element | self assert: (element contents substrings second = 'aaaaaaaa')].
 	

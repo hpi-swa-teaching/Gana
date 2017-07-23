@@ -1,4 +1,4 @@
 helping
 commitListIncludesAll: aVersionCollection
 
-	^ self subject model commitList includesAllOf: aVersionCollection
+	^ self ganaBrowser commitList includesAllOf: aVersionCollection

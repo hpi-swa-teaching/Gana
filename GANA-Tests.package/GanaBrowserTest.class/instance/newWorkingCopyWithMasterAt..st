@@ -1,5 +1,5 @@
 helping
-workingCopyWithMasterAt: aVersion
+newWorkingCopyWithMasterAt: aVersion
 
 	| workingCopy squitRepository |
 	squitRepository := MockRepository new.
@@ -7,5 +7,5 @@ workingCopyWithMasterAt: aVersion
 	workingCopy := MockWorkingCopy new 
 		name: 'fake';
 		repository: squitRepository.
-	^workingCopy
+	^ workingCopy
 	

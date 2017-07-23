@@ -1,20 +1,14 @@
 testing
 testCorrectTimestamp
 
-	 "v1 -- v2 "
-	 "            ~'mOCKmASTER2"
 	 | version1 version2 workingCopy output squitRepository timeStamp1 timeStamp2 |
 	 timeStamp1 := DateAndTime year: 1997 month: 2 day: 24 hour: 11 minute: 55.
 	 timeStamp2 := DateAndTime year: 1996 month: 5 day: 5 hour: 4 minute: 20.
 	 squitRepository := MockRepository new. 
 	 version1 := MockVersion newWith: '1' From: #() at: timeStamp1 id:'11111111'.
 	 version2 := MockVersion newWith: '2' From: {version1} at: timeStamp2 id:'22222222'.
-	 squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version2).
-	 workingCopy := MockWorkingCopy new 
-		 name: 'fake';
-		 repository: squitRepository.
-	 self subject model workingCopy: workingCopy.
-	 self subject model refresh.
+	 workingCopy := self newWorkingCopyWithMasterAt: version2.
+	 self setWorkingCopy: workingCopy.
 	 output := (Array streamContents: [:stream| 
 	       self subject allMorphsDo: [:morph|(morph isKindOf: IndentingListItemMorph) ifTrue: [stream nextPut: morph]]]).
 
