@@ -6,7 +6,7 @@ testCorrectMessageAbbreviation
 	 | version1 version2 string workingCopy testMessage output squitRepository|
 	 string := ''.
 	 testMessage := (1 to: 90 do: [:j| string := string, 'a']).
-	 squitRepository := MockSquitRepository new. 
+	 squitRepository := MockRepository new. 
 	 version1 := MockVersion newWith: string From: #() at: TimeStamp now id:'11111111'.
 	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'22222222'.
 	 squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version2).

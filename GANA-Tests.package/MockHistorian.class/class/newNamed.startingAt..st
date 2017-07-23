@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 newNamed: aName startingAt: aVersion
 
 	^(self new)

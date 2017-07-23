@@ -1,4 +1,4 @@
-as yet unclassified
+historians
 addHistorian: aHistorian
 
 	historians add: aHistorian.

@@ -1,0 +1,1 @@
+A GanaBrowserTest tests the Gana Browser.

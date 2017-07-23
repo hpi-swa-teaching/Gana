@@ -1,0 +1,1 @@
+A MockWorkingCopy is a mock representation of a SquitWorkingCopy.

@@ -5,7 +5,7 @@ testCommitCompletenessMedium
 	 "            ~'mOCKmASTER2"
 	 | workingCopy output squitRepository version versionFirst bigRepo |
 	
-	 squitRepository := MockSquitRepository new. 
+	 squitRepository := MockRepository new. 
 	 version := MockVersion newWith: '1' From: #() at: TimeStamp now id:'11111111'.
 	 versionFirst := version.
 	 bigRepo := (2 to: 1000 do: [:j | version := MockVersion newWith: '1' From: {version} at: TimeStamp now id:'11111111',j asString ]).

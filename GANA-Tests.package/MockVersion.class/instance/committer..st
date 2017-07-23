@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 committer: aName
 
 	metadata add: (Association key: #committer value: aName).

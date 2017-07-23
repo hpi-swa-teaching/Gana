@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = o
 
 	^self hexHash = o hexHash.

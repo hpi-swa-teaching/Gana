@@ -4,7 +4,7 @@ testEmptyCommitMessage
 	 "            ~'mOCKmASTER2"
 	 | version1 version2 workingCopy output squitRepository |
 	
-	 squitRepository := MockSquitRepository new. 
+	 squitRepository := MockRepository new. 
 	 version1 := MockVersion newWith: '' From: #() at: TimeStamp now id:'11111111'.
 	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'22222222'.
 	 squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: version2).

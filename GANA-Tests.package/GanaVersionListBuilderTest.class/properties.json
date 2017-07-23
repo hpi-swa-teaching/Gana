@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "FB 7/23/2017 22:55",
 	"instvars" : [
-		"name",
-		"repository" ],
-	"name" : "MockWorkingCopy",
+		"builder",
+		"squitRepository" ],
+	"name" : "GanaVersionListBuilderTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

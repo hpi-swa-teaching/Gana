@@ -2,7 +2,7 @@ testing
 testHeadOfBranch
 
 	| version1 version2 version3 workingCopy commitMorphs squitRepository |
-	squitRepository := MockSquitRepository new.
+	squitRepository := MockRepository new.
 	version1 := MockVersion newWith: 'Not' From: #() at: TimeStamp now id:'ABCD1234'.
 	version2 := MockVersion newWith: 'Not' From: {version1} at: TimeStamp now id:'ABFE4569'.
 	version3 := MockVersion newWith: 'I am the Head' From: {version2} at: TimeStamp now id:'XYUALIWL'.
