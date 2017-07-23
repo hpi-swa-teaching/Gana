@@ -1,6 +1,8 @@
 search
-applySearchTermTo: aList
+applySearchTermTo: commits
 
-	(self searchTerm first = $#) ifTrue: [^ aList select: [:versionWrapper | (((versionWrapper version shortId) first: (self searchTerm size - 1)) = self searchTerm allButFirst) or: (versionWrapper version message includesSubstring: self searchTerm)]].
-	(self searchTerm first = $@) ifTrue: [^ aList select: [:versionWrapper | (versionWrapper version metadata at: #author) asLowercase  includesSubstring: self searchTerm allButFirst asLowercase]].
-	^ aList select: [:versionWrapper | versionWrapper version message asLowercase includesSubstring: self searchTerm asLowercase] 					
+	|searchTerm|
+	searchTerm := self searchTerm.
+	(self isHashKeyword: searchTerm) ifTrue: [^ self applyHashFilter: searchTerm on: commits].
+	(self isAuthorKeyword: searchTerm) ifTrue: [^ self applyAuthorFilter: searchTerm on: commits].
+	^ self applyMessageFilter: searchTerm on: commits		
