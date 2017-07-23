@@ -1,0 +1,1 @@
+A GanaChangedArtifactsViewer views the diff between two snapshots.

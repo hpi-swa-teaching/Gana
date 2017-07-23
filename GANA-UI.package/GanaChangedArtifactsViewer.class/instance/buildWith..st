@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWith: builder
 	| mainWidgets mainWidgetsPanel window |
 	self realizeChangesList.

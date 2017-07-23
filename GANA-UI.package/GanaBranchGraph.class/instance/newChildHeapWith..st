@@ -1,4 +1,4 @@
-as yet unclassified
+algorithm
 newChildHeapWith: commit
 
 	^ ((Heap sortBlock: [ :a :b | (a metadata at: #timestamp) > (b metadata at: #timestamp)])

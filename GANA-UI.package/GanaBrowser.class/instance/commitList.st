@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 commitList 
 
 	| graph x y segmentSize sortedCommitList |

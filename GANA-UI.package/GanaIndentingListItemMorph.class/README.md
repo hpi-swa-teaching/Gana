@@ -1,0 +1,1 @@
+A GanaIndentingListItemMorph alters the behaviour of a morphic toolbuilder to prevent the list items from having a 2 pixel spacing between items.

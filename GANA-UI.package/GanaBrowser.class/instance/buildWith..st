@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWith: builder
 
 	^ builder build: (builder pluggableWindowSpec new

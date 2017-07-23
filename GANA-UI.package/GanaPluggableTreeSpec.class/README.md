@@ -1,0 +1,1 @@
+A GanaPluggableTreeSpec covers the need for a Spec of the custom GanaPluggableTree.

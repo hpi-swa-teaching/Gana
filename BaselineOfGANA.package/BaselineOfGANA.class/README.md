@@ -1,0 +1,1 @@
+A BaselineOfGANA is a spec for travis testing.
