@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUpSqueakSneezer
 
 	"In the real world, one sneezer corresponds to about 40ms"
