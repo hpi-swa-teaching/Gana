@@ -1,6 +1,6 @@
 A GanaBranchGraph is an algorithm, that computes  a Morph Visualisation of an ordered commitList.
 The graph is planar and ordered onto a grid of rows and columns.
-Per column there is only going to exist one node.
+Perrow there is only one node.
 
 Instance Variables
 	childrenDict:		stores edges to children of given commit
