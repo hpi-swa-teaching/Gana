@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildSearchBar: builder
 
 	^ builder pluggableInputFieldSpec new

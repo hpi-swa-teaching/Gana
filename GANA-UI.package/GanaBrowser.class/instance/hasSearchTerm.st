@@ -1,4 +1,4 @@
-as yet unclassified
+search
 hasSearchTerm
 	
 	^ self searchTerm ~= ''

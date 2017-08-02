@@ -1,5 +1,4 @@
 helping
 commitListIncludesNone: aVersionCollection
 
-	aVersionCollection do: [:elem | (self subject model commitList includes: elem) not ifFalse: [^ false]].
-	^ true
+	^ (aVersionCollection union: self ganaBrowser commitList) size = (aVersionCollection size + self ganaBrowser commitList size)

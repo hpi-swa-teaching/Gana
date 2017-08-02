@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 sqeakSneezerDuring: milliSeconds
 
 	^ milliSeconds / squeakSneezerInMs

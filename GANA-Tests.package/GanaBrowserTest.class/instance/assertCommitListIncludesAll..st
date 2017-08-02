@@ -1,4 +1,4 @@
 helping
 assertCommitListIncludesAll: aVersionCollection
 
-	self assert: (self subject model commitList includesAllOf: aVersionCollection)
+	self assert: (self ganaBrowser commitList includesAllOf: aVersionCollection)

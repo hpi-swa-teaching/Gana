@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 minHeight
 
 	"Overwrite row-spacing behaviour in order to prevent spaces between icons"

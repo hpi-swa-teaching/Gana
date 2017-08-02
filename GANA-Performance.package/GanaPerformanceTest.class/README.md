@@ -1,0 +1,1 @@
+A GanaPerformanceTest measures performance of repo loading dependent on the image speed.

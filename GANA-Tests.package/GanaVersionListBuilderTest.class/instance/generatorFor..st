@@ -1,4 +1,4 @@
-as yet unclassified
+helping
 generatorFor: numberOfVersions
 	
 	"Useful for creating a number of timely consecutive commits.

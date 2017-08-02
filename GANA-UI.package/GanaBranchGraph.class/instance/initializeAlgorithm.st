@@ -1,4 +1,4 @@
-as yet unclassified
+algorithm
 initializeAlgorithm
 
 	self

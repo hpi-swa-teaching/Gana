@@ -1,0 +1,1 @@
+A MockVersion is a mock representation of a SquitVersion.

@@ -1,4 +1,4 @@
-as yet unclassified
+search
 searchTerm
 
 	^ searchTerm ifNil: [searchTerm := '']

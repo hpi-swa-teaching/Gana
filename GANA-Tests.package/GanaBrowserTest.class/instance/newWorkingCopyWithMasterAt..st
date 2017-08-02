@@ -1,11 +1,11 @@
 helping
-workingCopyWithMasterAt: aVersion
+newWorkingCopyWithMasterAt: aVersion
 
 	| workingCopy squitRepository |
-	squitRepository := MockSquitRepository new.
+	squitRepository := MockRepository new.
 	squitRepository addHistorian: (MockHistorian newNamed:'MockMaster' startingAt: aVersion).
 	workingCopy := MockWorkingCopy new 
 		name: 'fake';
 		repository: squitRepository.
-	^workingCopy
+	^ workingCopy
 	

@@ -1,0 +1,1 @@
+A MockHistorian is a mock representation of a SquitHistorian.
