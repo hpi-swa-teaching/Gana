@@ -1,4 +1,4 @@
-as yet unclassified
+edgeCases
 mockWorkingCopyDiamondMerging
 
 	" -- v1 ---- v3 ----- v5 -- ~ master            "

@@ -1,4 +1,4 @@
-as yet unclassified
+edgeCases
 mockWorkingCopySimpleMerge
 
 	" -- v1 -- v2 -- v4 -- ~master       "

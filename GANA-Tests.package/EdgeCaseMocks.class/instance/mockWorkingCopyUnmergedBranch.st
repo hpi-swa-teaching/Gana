@@ -1,4 +1,4 @@
-as yet unclassified
+edgeCases
 mockWorkingCopyUnmergedBranch
 
 	" - v1 ---- v2 ---- v4 ---- v5 -           ~master            "
