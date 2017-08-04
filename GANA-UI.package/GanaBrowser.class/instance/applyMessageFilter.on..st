@@ -1,4 +1,4 @@
 search
 applyMessageFilter: aSearchTerm on: commits
 	
-	^ commits select: [:versionWrapper | versionWrapper version message asLowercase includesSubstring: aSearchTerm asLowercase]					
+	^ commits select: [:versionWrapper | versionWrapper version message includesSubstring: aSearchTerm caseSensitive: false]					
