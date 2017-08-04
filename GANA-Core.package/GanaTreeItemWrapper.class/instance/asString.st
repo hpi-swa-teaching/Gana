@@ -1,4 +1,4 @@
-as yet unclassified
+visualisation
 asString
 
 	| date commitHash author message version |
