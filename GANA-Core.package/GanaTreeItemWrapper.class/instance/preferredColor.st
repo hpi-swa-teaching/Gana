@@ -1,4 +1,4 @@
-as yet unclassified
+visualisation
 preferredColor
 
 	self item isStartOfHistorian
