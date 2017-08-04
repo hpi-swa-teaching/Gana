@@ -1,12 +1,7 @@
-as yet unclassified
+searching
 visitListItem: aListItem
 
-	self flag: #refactor. "Ugly conditional"
-	(seen includes: aListItem version hash) 
-		ifFalse: [
-			seen add: aListItem version hash.
-			searchFrontier addAll: (self listItemsForVersion: aListItem version parents with: aListItem historians ).
-			versionList add: aListItem.]
-		ifTrue: [
-			(versionList select: [:each|aListItem = each] ) first 
-				addAllHistorians: aListItem historians.]
+	(self alreadySeen: aListItem) 
+		ifTrue: [self addDiscoveredHistoriansOf: aListItem]
+		ifFalse: [self expand: aListItem]
+		

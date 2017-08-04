@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 listItemsForVersion: versions with: historians
 
 	^ versions collect: [:version|(GanaVersionWrapper on: version)
