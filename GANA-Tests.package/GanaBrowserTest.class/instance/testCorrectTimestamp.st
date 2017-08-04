@@ -28,9 +28,9 @@ testCorrectTimestamp
 	self setWorkingCopy: workingCopy.
 	uiCommitList := self uiCommitList.
 	self 
-		assert: uiCommitList first contents substrings third = '05';
-		assert: uiCommitList first contents substrings fourth = 'May';
-		assert: uiCommitList first contents substrings fifth = '04:20';
-		assert: uiCommitList second contents substrings third = '24';
-		assert: uiCommitList second contents substrings fourth = 'Feb'.
-	self assert: uiCommitList second contents substrings fifth = '11:55'
+		assert: uiCommitList first contents substrings second = '05';
+		assert: uiCommitList first contents substrings third = 'May';
+		assert: uiCommitList first contents substrings fourth = '04:20';
+		assert: uiCommitList second contents substrings second = '24';
+		assert: uiCommitList second contents substrings third = 'Feb'.
+	self assert: uiCommitList second contents substrings fourth = '11:55'
