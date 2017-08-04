@@ -3,6 +3,6 @@ defaultNode
 
 	^ CircleMorph new
 		extent: self defaultNodeSize asPoint;
-		color: Color cyan;
-		borderColor: Color cyan;
+		color: Color green;
+		borderColor: Color green;
 		yourself

@@ -1,4 +1,4 @@
 default
 defaultFirstVersionColor
 
-	^ Color orange
+	^ Color green
