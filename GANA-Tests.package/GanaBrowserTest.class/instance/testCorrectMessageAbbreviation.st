@@ -10,6 +10,6 @@ testCorrectMessageAbbreviation
 	 workingCopy := self newWorkingCopyWithMasterAt: version2.
 	 self setWorkingCopy: workingCopy.
 	
-	 self uiCommitList do: [:element | self assert: (element contents substrings seventh size < 81)].
+	 self uiCommitList do: [:element | self assert: (element contents substrings sixth size < 81)].
 	
 	

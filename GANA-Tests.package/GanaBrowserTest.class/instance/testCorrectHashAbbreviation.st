@@ -13,7 +13,7 @@ testCorrectHashAbbreviation
 	 workingCopy := self newWorkingCopyWithMasterAt: version2.
 	 self setWorkingCopy: workingCopy.
 	 self uiCommitList do: [:element | self
-										assert: (element contents substrings second size = displayedHashSIze);
-										assert: (element contents substrings second = 'aaaaaaaa')].
+										assert: (element contents substrings first size = displayedHashSIze);
+										assert: (element contents substrings first = 'aaaaaaaa')].
 	
 	
