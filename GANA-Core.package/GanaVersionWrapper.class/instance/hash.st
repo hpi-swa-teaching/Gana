@@ -1,4 +1,4 @@
-accessing
+comparing
 hash
 
 	^ version hash
