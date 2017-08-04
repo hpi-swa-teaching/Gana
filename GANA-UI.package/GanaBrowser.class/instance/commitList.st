@@ -2,14 +2,12 @@ accessing
 commitList 
 
 	| x y segmentSize sortedCommitList |
-	self flag: #refactor. "How do we save the list heights etc.?"
-	sortedCommitList := GanaVersionListBuilder new searchFrom: (self repository).
-	self graph:  (GanaBranchGraph newFor: (sortedCommitList collect: [:wrapper | wrapper version])).
-	x := 400.
+	sortedCommitList := GanaVersionListBuilder new searchFrom: self repository.
+	self graph: (GanaBranchGraph newFor: (sortedCommitList collect: [:wrapper | wrapper version])).
+	x := self graph viewableWidth.
 	y := self graph cellSize.
 	segmentSize := x@y.
-	sortedCommitList withIndexDo: [:each :index| | bubbleSegment  |
+	sortedCommitList withIndexDo: [:commit :index| | bubbleSegment  |
 						bubbleSegment :=  ( 0 @ y * (index - 1) extent: segmentSize).
-						each visualisationBubbleCreator: [ self graph imageFormForRectangle: bubbleSegment.].].
-	self hasSearchTerm ifTrue: [ sortedCommitList :=  self applySearchTermTo: sortedCommitList].
-	^ sortedCommitList
+						commit visualisationBubbleCreator: [self graph imageFormForRectangle: bubbleSegment.].].
+	^ self filter: sortedCommitList

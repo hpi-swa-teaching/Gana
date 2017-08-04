@@ -3,9 +3,10 @@
 		"defaultCellSize" : "BS 7/7/2017 00:44",
 		"defaultNode" : "LH 8/4/2017 18:27",
 		"defaultNodeSize" : "BS 7/7/2017 00:45",
+		"defaultViewableWidth" : "FB 8/4/2017 22:13",
 		"newFor:" : "FB 7/8/2017 15:41" },
 	"instance" : {
-		"cellSize" : "BS 7/7/2017 00:46",
+		"cellSize" : "FB 8/4/2017 22:11",
 		"childrenDict" : "JK 8/4/2017 17:41",
 		"childrenDict:" : "LH 8/4/2017 18:24",
 		"commitList" : "BS 7/6/2017 14:09",
@@ -28,4 +29,5 @@
 		"putChildConnectionsBetween:and:" : "BS 7/8/2017 15:11",
 		"putCommit:at:" : "BS 7/8/2017 15:09",
 		"verticalSuccessorDict" : "BS 7/6/2017 22:46",
-		"verticalSuccessorDict:" : "BS 7/6/2017 22:46" } }
+		"verticalSuccessorDict:" : "BS 7/6/2017 22:46",
+		"viewableWidth" : "FB 8/4/2017 22:12" } }
