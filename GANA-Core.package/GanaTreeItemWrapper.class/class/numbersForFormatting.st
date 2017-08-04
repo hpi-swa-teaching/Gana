@@ -1,7 +1,7 @@
 formatting
 numbersForFormatting
 	
-	^(Dictionary new)
+	^ Dictionary new
 		at: #hashLength put: 8;
 		at: #authorLength put: 30;
 		at: #messageLength put: 80;
