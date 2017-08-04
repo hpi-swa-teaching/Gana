@@ -1,4 +1,4 @@
-helping
+as yet unclassified
 maxAcceptedSneezers
 	
 	^ 30
