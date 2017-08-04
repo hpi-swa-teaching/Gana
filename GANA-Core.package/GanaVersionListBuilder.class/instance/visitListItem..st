@@ -4,7 +4,6 @@ visitListItem: aListItem
 	self flag: #refactor. "Ugly conditional"
 	(seen includes: aListItem version hash) 
 		ifTrue: [
-			"-> we must come from another historian ... its still a DAG :)"
 			(versionList select: [:each|aListItem = each] ) first 
 				addAllHistorians: aListItem historians.
 				^self].
