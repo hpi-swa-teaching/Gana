@@ -1,4 +1,4 @@
-as yet unclassified
+formatting
 numbersForFormatting
 	
 	^(Dictionary new)
