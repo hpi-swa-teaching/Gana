@@ -33,5 +33,5 @@ testCorrectTimestamp
 		assert: uiCommitList first contents substrings third = 'May';
 		assert: uiCommitList first contents substrings fourth = '04:20';
 		assert: uiCommitList second contents substrings second = '24';
-		assert: uiCommitList second contents substrings third = 'Feb'.
-	self assert: uiCommitList second contents substrings fourth = '11:55'
+		assert: uiCommitList second contents substrings third = 'Feb';
+	      assert: uiCommitList second contents substrings fourth = '11:55'.

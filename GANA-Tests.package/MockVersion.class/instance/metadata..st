@@ -1,3 +1,4 @@
 accessing
 metadata: anObject
-	metadata := anObject
+
+	metadata := anObject.

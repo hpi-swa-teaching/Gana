@@ -1,4 +1,4 @@
 accessing
 graph: aMorph
 
-	graph := aMorph
+	graph := aMorph.

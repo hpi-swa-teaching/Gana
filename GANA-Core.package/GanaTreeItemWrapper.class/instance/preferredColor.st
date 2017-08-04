@@ -3,4 +3,4 @@ preferredColor
 
 	self item isStartOfHistorian
 		ifTrue: [^ self firstVersionColor ]
-		 ifFalse:  [^super highlightColor]
+		ifFalse:  [^super highlightColor].

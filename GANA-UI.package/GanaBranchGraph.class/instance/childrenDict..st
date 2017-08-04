@@ -1,4 +1,4 @@
 accessing
 childrenDict: anObject
 
-	childrenDict := anObject
+	childrenDict := anObject.

@@ -1,3 +1,4 @@
 accessing
 parents: anObject
-	parents := anObject
+
+	parents := anObject.

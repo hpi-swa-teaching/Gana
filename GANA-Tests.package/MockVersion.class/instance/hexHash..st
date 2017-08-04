@@ -1,3 +1,4 @@
 accessing
 hexHash: anObject
-	hexHash := anObject
+
+	hexHash := anObject.

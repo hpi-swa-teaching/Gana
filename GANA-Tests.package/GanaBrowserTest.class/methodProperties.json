@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertCommitListIncludesAll:" : "FB 7/23/2017 23:03",
+		"assertCommitListIncludesAll:" : "LH 8/4/2017 18:16",
 		"assertCommitListIncludesNone:" : "FB 7/2/2017 09:25",
 		"commitListIncludesAll:" : "FB 7/23/2017 23:03",
 		"commitListIncludesNone:" : "FB 7/23/2017 23:06",
@@ -15,7 +15,7 @@
 		"testCommitCompletenessMedium" : "FB 7/26/2017 11:05",
 		"testCorrectHashAbbreviation" : "BS 8/4/2017 14:52",
 		"testCorrectMessageAbbreviation" : "BS 8/4/2017 14:51",
-		"testCorrectTimestamp" : "JK 8/4/2017 16:01",
+		"testCorrectTimestamp" : "LH 8/4/2017 18:17",
 		"testEmptyCommitMessage" : "FB 7/26/2017 11:09",
 		"testHeadOfBranch" : "FB 7/26/2017 11:11",
 		"testSearchAbbreviatedHashFromStart" : "FB 7/23/2017 23:08",

@@ -1,4 +1,4 @@
 accessing
 commitList: anObject
 
-	commitList := anObject
+	commitList := anObject.

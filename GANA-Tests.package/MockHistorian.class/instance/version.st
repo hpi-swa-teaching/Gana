@@ -1,4 +1,4 @@
 accessors
 version
 
-	^version
+	^ version

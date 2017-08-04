@@ -1,4 +1,4 @@
 accessing
 message
 
-	^message
+	^ message
