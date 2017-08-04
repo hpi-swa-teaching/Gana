@@ -1,4 +1,3 @@
-algorithm
+accessing
 graph
-
 	^ graph
