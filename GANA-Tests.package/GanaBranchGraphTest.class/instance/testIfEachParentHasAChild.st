@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testIfEachParentHasAChild
 
 	self ganaBrowser workingCopy: EdgeCaseMocks new mockWorkingCopySimple.

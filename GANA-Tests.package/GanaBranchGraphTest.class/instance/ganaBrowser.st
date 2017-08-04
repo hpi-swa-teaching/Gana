@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 ganaBrowser
 
 	^ self subject model

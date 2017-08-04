@@ -1,11 +1,12 @@
-as yet unclassified
+testing
 testInitializeAlgorithm
 
 	| graph |
 	graph := GanaBranchGraph new.
 	graph initializeAlgorithm.
 	
-	self assert: graph positionDict isEmpty.
-	self assert: graph childrenDict isEmpty.
-	self assert: graph verticalSuccessorDict isEmpty.
-	self assert: graph lastCommitPerColumn isEmpty.
+	self 
+		assert: graph positionDict isEmpty;
+	      assert: graph childrenDict isEmpty;
+	      assert: graph verticalSuccessorDict isEmpty;
+	      assert: graph lastCommitPerColumn isEmpty.
