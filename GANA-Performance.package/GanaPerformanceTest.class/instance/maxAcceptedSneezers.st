@@ -1,0 +1,4 @@
+helping
+maxAcceptedSneezers
+	
+	^ 30

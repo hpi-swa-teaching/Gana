@@ -1,5 +1,6 @@
 testing
 testCorrectTimestamp
+
 	| version1 version2 workingCopy squitRepository timeStamp1 timeStamp2 uiCommitList |
 	timeStamp1 := DateAndTime
 		year: 1997
