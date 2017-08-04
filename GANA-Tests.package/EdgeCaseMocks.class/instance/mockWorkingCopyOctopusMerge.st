@@ -8,7 +8,7 @@ mockWorkingCopyOctopusMerge
 	"        - v2 -----------------/        ~ otherBranch2 "
 	
 	| version1 version2 version3 version4 version5 version6 workingCopy squitRepository|
-  	 squitRepository := MockSquitRepository new. 
+  	 squitRepository := MockRepository new. 
   	 version1 := MockVersion newWith: '1' From: #() at: TimeStamp now id:'11111111'.
   	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'22222222'.
   	 version3 := MockVersion newWith: '3' From: {version1} at: TimeStamp now id:'33333333'.

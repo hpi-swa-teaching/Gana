@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"mockWorkingCopyCrossoverMerge" : "SB 7/6/2017 22:03",
-		"mockWorkingCopyDiamondMerging" : "LH 7/9/2017 20:22",
-		"mockWorkingCopyMultipleBranching" : "LH 7/9/2017 20:16",
-		"mockWorkingCopyOctopusMerge" : "LH 7/9/2017 20:42",
-		"mockWorkingCopySimple" : "LH 7/6/2017 23:13",
-		"mockWorkingCopySimpleMerge" : "LH 7/9/2017 20:19",
-		"mockWorkingCopyUnmergedBranch" : "LH 7/6/2017 23:44" } }
+		"mockWorkingCopyCrossoverMerge" : "BS 8/4/2017 13:30",
+		"mockWorkingCopyDiamondMerging" : "BS 8/4/2017 13:30",
+		"mockWorkingCopyMultipleBranching" : "BS 8/4/2017 13:31",
+		"mockWorkingCopyOctopusMerge" : "BS 8/4/2017 13:29",
+		"mockWorkingCopySimple" : "BS 8/4/2017 13:31",
+		"mockWorkingCopySimpleMerge" : "BS 8/4/2017 13:31",
+		"mockWorkingCopyUnmergedBranch" : "BS 8/4/2017 13:31" } }
