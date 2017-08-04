@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 searchFrom: aSquitRepository
 	
 	| allHistorians |
