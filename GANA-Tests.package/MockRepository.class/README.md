@@ -1,0 +1,1 @@
+A MockSquitRepository is a Mock representation of a SquitRepository.

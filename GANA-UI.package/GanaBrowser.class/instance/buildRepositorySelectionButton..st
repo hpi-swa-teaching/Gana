@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildRepositorySelectionButton: builder
 
 	^ builder pluggableButtonSpec new

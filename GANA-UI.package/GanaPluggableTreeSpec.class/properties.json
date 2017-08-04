@@ -1,0 +1,14 @@
+{
+	"category" : "GANA-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FB 7/23/2017 22:50",
+	"instvars" : [
+		 ],
+	"name" : "GanaPluggableTreeSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableTreeSpec",
+	"type" : "normal" }

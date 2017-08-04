@@ -1,0 +1,4 @@
+defaults
+defaultNodeSize
+
+	^ 24

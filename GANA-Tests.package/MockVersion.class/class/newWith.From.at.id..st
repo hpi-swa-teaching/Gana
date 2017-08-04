@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 newWith: aMessage From: parents at: timestamp id: hash
 	
 	^ (self new)

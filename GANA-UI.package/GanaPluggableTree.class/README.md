@@ -1,0 +1,1 @@
+A GanaPluggableTree adds custom doubeClick behaviour and uses the GanaIndentingListItemMorph to display items.
