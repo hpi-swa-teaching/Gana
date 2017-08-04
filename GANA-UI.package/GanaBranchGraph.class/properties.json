@@ -15,5 +15,5 @@
 	"name" : "GanaBranchGraph",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Morph",
 	"type" : "normal" }
