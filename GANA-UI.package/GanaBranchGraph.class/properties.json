@@ -11,7 +11,7 @@
 		"childrenDict",
 		"verticalSuccessorDict",
 		"lastCommitPerColumn",
-		"graph" ],
+		"visualisation" ],
 	"name" : "GanaBranchGraph",
 	"pools" : [
 		 ],

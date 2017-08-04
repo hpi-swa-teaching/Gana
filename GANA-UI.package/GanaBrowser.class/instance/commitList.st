@@ -10,6 +10,6 @@ commitList
 	segmentSize := x@y.
 	sortedCommitList withIndexDo: [:each :index| | bubbleSegment  |
 						bubbleSegment :=  ( 0 @ y * (index - 1) extent: segmentSize).
-						each visualisationBubbleCreator: [ self graph graph imageFormForRectangle: bubbleSegment.].].
+						each visualisationBubbleCreator: [ self graph visualisation imageFormForRectangle: bubbleSegment.].].
 	self hasSearchTerm ifTrue: [ sortedCommitList :=  self applySearchTermTo: sortedCommitList].
 	^ sortedCommitList

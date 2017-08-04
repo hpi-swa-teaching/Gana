@@ -8,4 +8,4 @@ paintLineBetween: child and: parent
 						  ifFalse: [middle := (start x)@(end y)].
 						
 	line := (PolygonMorph vertices: {start. middle. end} color: Color black borderWidth: 2 borderColor: Color black) makeOpen.
-	self graph addMorphBack: line.
+	self visualisation addMorphBack: line.
