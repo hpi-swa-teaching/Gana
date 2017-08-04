@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 historians: anOrderedCollection 
 
 	historians := anOrderedCollection.
