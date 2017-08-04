@@ -6,9 +6,9 @@ testBigRepo
 	commitCount := 1500.
 	ganaBrowser := self subject model.
 	bigRepo :=self newWorkingCopyWithMasterAt: (self createRepoWith: commitCount).
-	creationTime := Time millisecondsToRun: [ self setWorkingCopy: bigRepo.].
+	creationTime := [self setWorkingCopy: bigRepo.] timeToRun.
 	self assert: ((self sqeakSneezerDuring: creationTime) <= maxAcceptedSneezers).
 	searchTerm := '1'.
-	searchTime := Time millisecondsToRun: [ganaBrowser searchTerm: searchTerm. ganaBrowser refresh.].
+	searchTime := [ganaBrowser searchTerm: searchTerm. ganaBrowser refresh.] timeToRun.
 	self assert: ((self sqeakSneezerDuring: searchTime) <= maxAcceptedSneezers).
 	
