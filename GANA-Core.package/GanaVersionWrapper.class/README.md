@@ -1,0 +1,1 @@
+A GanaVersionWrapper adds information about historians that are able to reach this version to the version.
