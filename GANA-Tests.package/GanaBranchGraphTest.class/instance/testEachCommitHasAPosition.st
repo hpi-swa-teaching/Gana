@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testEachCommitHasAPosition
 
 	self ganaBrowser workingCopy: EdgeCaseMocks new mockWorkingCopySimple.
