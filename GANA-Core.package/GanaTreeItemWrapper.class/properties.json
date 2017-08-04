@@ -1,7 +1,9 @@
 {
 	"category" : "GANA-Core",
 	"classinstvars" : [
-		 ],
+		"formatingNumbers",
+		"formatHash",
+		"formatDict" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "BS 8/4/2017 15:46",
