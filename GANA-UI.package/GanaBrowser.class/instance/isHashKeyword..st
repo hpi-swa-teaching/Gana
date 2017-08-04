@@ -1,4 +1,4 @@
 search
 isHashKeyword: searchTerm
 	
-	^ searchTerm first = $#.				
+	^ searchTerm first = $#

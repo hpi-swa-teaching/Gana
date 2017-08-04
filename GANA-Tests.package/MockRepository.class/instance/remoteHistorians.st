@@ -1,4 +1,4 @@
 accessors
 remoteHistorians
 	
-	^ OrderedCollection new.
+	^ OrderedCollection new

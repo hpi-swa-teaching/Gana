@@ -1,4 +1,4 @@
 search
 isAuthorKeyword: searchTerm
 	
-	^ searchTerm first = $@.				
+	^ searchTerm first = $@				

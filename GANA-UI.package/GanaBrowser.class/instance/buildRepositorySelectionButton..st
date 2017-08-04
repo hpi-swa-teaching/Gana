@@ -5,4 +5,4 @@ buildRepositorySelectionButton: builder
 		model: self;
 		action: #actionSelectRepository;
 		label: 'Select Repository';
-		frame: (0@0 corner: 0.2@0.07).
+		frame: (0@0 corner: 0.2@0.07)

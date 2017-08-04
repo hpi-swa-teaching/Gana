@@ -1,4 +1,4 @@
 comparing
 = o
 
-	^ self hexHash = o hexHash.
+	^ self hexHash = o hexHash

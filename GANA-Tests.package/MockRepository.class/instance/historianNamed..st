@@ -1,4 +1,4 @@
 historians
 historianNamed: aName
 
-	^ historians detect: [:each|each name = aName].
+	^ historians detect: [:each|each name = aName]
