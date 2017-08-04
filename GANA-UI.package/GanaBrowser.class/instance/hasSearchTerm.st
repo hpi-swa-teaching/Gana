@@ -1,4 +1,4 @@
 search
 hasSearchTerm
 	
-	^ self searchTerm ~= ''
+	^ self searchTerm notEmpty
