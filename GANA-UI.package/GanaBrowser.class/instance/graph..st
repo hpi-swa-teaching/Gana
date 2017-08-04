@@ -1,3 +1,4 @@
 accessing
-graph: anObject
-	graph := anObject
+graph: aMorph
+
+	graph := aMorph

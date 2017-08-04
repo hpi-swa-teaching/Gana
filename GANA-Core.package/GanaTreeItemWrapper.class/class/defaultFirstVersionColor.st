@@ -1,0 +1,4 @@
+default
+defaultFirstVersionColor
+
+	^ Color orange

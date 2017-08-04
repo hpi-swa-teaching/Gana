@@ -1,4 +1,4 @@
 accessing
 summary
 
-	^self item summary
+	^ self item summary

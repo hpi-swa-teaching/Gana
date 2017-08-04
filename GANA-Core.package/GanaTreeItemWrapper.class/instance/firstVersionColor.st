@@ -1,4 +1,4 @@
 accessing
 firstVersionColor 
 
-	^ Color orange
+	^ self class defaultFirstVersionColor
