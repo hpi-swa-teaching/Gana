@@ -1,4 +1,4 @@
 accessors
 name 
 
-	^name
+	^ name

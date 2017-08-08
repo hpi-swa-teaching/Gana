@@ -1,0 +1,4 @@
+default
+maxAcceptedSneezers
+	
+	^ 30

@@ -1,4 +1,4 @@
 accessing
 lastCommitPerColumn: anOrderedCollection
 
-	lastCommitPerColumn := anOrderedCollection
+	lastCommitPerColumn := anOrderedCollection.

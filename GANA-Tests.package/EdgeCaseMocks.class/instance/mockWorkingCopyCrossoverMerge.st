@@ -1,4 +1,4 @@
-as yet unclassified
+edgeCases
 mockWorkingCopyCrossoverMerge
 
 	" - v1 ----- v3 ----- v5 ----- v6 - ~ master           "

@@ -1,4 +1,4 @@
 defaults
 cellSize
 
-	^ (self class defaultCellSize)
+	^ self class defaultCellSize

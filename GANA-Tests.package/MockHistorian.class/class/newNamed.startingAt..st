@@ -1,7 +1,7 @@
 initialize-release
 newNamed: aName startingAt: aVersion
 
-	^(self new)
+	^ (self new)
 		name: aName;
 		version: aVersion;
 		yourself

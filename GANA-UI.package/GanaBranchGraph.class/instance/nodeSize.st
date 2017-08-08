@@ -1,4 +1,4 @@
 defaults
 nodeSize
 
-	^ (self class defaultNodeSize)
+	^ self class defaultNodeSize

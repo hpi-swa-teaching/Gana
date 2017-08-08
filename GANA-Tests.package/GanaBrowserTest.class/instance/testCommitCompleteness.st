@@ -9,6 +9,6 @@ testCommitCompleteness
 	 version2 := MockVersion newWith: '2' From: {version1} at: TimeStamp now id:'22222222'.
 	 workingCopy := self newWorkingCopyWithMasterAt: version2.
 	 self setWorkingCopy: workingCopy.
-	self assert: (self uiCommitList size = 2).	
+	 self assert: (self uiCommitList size = 2).	
 	
 	

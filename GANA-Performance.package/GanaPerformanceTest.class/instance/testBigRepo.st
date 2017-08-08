@@ -1,14 +1,8 @@
 testing
 testBigRepo
 
-	| creationTime maxAcceptedSneezers commitCount ganaBrowser bigRepo searchTerm searchTime |
-	maxAcceptedSneezers := 30.
-	commitCount := 1500.
+	| ganaBrowser bigRepo |
 	ganaBrowser := self subject model.
-	bigRepo :=self newWorkingCopyWithMasterAt: (self createRepoWith: commitCount).
-	creationTime := Time millisecondsToRun: [ self setWorkingCopy: bigRepo.].
-	self assert: ((self sqeakSneezerDuring: creationTime) <= maxAcceptedSneezers).
-	searchTerm := '1'.
-	searchTime := Time millisecondsToRun: [ganaBrowser searchTerm: searchTerm. ganaBrowser refresh.].
-	self assert: ((self sqeakSneezerDuring: searchTime) <= maxAcceptedSneezers).
-	
+	bigRepo := self newWorkingCopyWithMasterAt: (self createRepoWith: self class commitCount).
+	self isFastEnought: [self setWorkingCopy: bigRepo.].
+	self isFastEnought: [ganaBrowser searchTerm: '1'. ganaBrowser refresh.].

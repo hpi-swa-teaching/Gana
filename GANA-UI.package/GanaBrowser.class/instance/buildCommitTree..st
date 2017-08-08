@@ -5,6 +5,6 @@ buildCommitTree: builder
 		model: self;
 		roots: #commitList;
 		nodeClass: GanaTreeItemWrapper;
-		columns: { 0 . 250 . 100 . 100 . 100 . nil};
+		columns: self class defaultColumnWidths;
 		frame: (0@0.07 corner: 1@1);
-		doubleClick: #actionShowDiffFrom:.
+		doubleClick: #actionShowDiffFrom:

@@ -1,4 +1,5 @@
 default
 explanationForSearch
 	
-	^ 'You can sarch through all the messages ', Character cr, 'or explicitly search for authors with @ or for commit Hashes with #', Character cr, Character tab, 'for example @blubl or #27'
+	^ 'You can search through all the messages ', Character cr, 'or explicitly search for authors with @', Character cr, 
+	'or for commit hashes with #', Character cr, Character tab, 'for example @blubl or #27'

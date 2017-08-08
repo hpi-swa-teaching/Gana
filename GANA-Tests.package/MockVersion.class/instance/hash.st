@@ -1,4 +1,4 @@
 comparing
 hash
 
-	^self hexHash hash
+	^ self hexHash hash

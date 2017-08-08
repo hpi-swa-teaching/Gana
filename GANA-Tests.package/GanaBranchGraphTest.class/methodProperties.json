@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ganaBrowser" : "FB 8/4/2017 21:57",
+		"setUp" : "FB 8/4/2017 21:56",
+		"testAddNewEdgeFromTo" : "FB 8/4/2017 22:03",
+		"testEachCommitHasAPosition" : "FB 8/4/2017 21:57",
+		"testIfEachParentHasAChild" : "FB 8/4/2017 21:57",
+		"testInitializeAlgorithm" : "SB 8/4/2017 23:39" } }

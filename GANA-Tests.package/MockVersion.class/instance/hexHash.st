@@ -1,4 +1,4 @@
 accessing
 hexHash
 
-	^hexHash
+	^ hexHash

@@ -1,0 +1,1 @@
+A GanaVersionListBuilder builds a list of all existing versions by following all historians through the parents of the versions.

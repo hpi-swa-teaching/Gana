@@ -1,0 +1,4 @@
+defaults
+defaultViewableWidth
+
+	^ 200

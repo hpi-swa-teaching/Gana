@@ -1,6 +1,6 @@
 class initialization
 newFor: list
 
-	^ (self new)
+	^ self new
 			commitList: list;
 			createGraph

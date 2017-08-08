@@ -1,4 +1,4 @@
-as yet unclassified
+searching
 performSearch 
 
 	[searchFrontier isEmpty] whileFalse:

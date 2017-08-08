@@ -1,4 +1,4 @@
-as yet unclassified
+edgeCases
 mockWorkingCopyOctopusMerge
 
 	" - v1 ----- v3 ----- v5 ----- v6- ~ master            "
